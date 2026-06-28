@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Padel Data Lab – Premier Padel</title>
+<style>
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #080d12;
+  --surface:   #0f1923;
+  --card:      #131f2b;
+  --card-hov:  #18293a;
+  --border:    rgba(255,255,255,0.07);
+  --border-hi: rgba(255,255,255,0.14);
+  --gold:      #c8973a;
+  --gold-dim:  rgba(200,151,58,0.15);
+  --text:      #dde8df;
+  --text-dim:  #7a9880;
+  --muted:     #4a6060;
+  --major:     #7b2d8b;
+  --p1:        #0077b6;
+  --p2:        #1a6b3a;
+  --font-head: 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Top bar ── */
+.top-bar {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,13,18,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-hi);
+  padding: 0 28px;
+  display: flex; align-items: center; gap: 16px; height: 52px;
+}
+.top-bar-brand {
+  font-family: var(--font-head);
+  font-size: 15px; color: var(--text);
+  letter-spacing: 0.02em;
+  display: flex; align-items: center; gap: 10px;
+}
+.top-bar-brand .sep { color: var(--muted); font-weight: 300; }
+.top-bar-brand .circuit { color: var(--gold); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; }
+.top-bar-right { margin-left: auto; font-size: 11px; color: var(--muted); letter-spacing: 0.04em; }
+
+/* ── Hero ── */
+.hero {
+  position: relative; overflow: hidden;
+  padding: 56px 28px 44px;
+  border-bottom: 1px solid var(--border);
+}
+/* Padel court watermark — the signature element */
+.court-bg {
+  position: absolute; inset: 0;
+  opacity: 0.04;
+  display: flex; align-items: center; justify-content: flex-end;
+  padding-right: 40px;
+  pointer-events: none;
+}
+.court-bg svg { width: 480px; height: auto; }
+
+.hero-inner { position: relative; max-width: 860px; }
+.hero-eyebrow {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 14px;
+}
+.hero-title {
+  font-family: var(--font-head);
+  font-size: clamp(26px, 4vw, 42px);
+  color: var(--text);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+.hero-title em { color: var(--gold); font-style: normal; }
+.hero-sub {
+  font-size: 13px; color: var(--text-dim);
+  line-height: 1.6; max-width: 520px;
+}
+.hero-stats {
+  display: flex; gap: 32px; margin-top: 28px; flex-wrap: wrap;
+}
+.hero-stat-num {
+  font-family: var(--font-mono); font-size: 22px;
+  color: var(--text); display: block; line-height: 1;
+}
+.hero-stat-lbl {
+  font-size: 10px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.1em;
+  display: block; margin-top: 4px;
+}
+
+/* ── Filter bar ── */
+.filter-bar {
+  display: flex; align-items: center; gap: 8px;
+  padding: 14px 28px; border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.filter-label { font-size: 11px; color: var(--muted); margin-right: 4px; letter-spacing: 0.06em; text-transform: uppercase; }
+.filter-btn {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 4px 12px; border-radius: 3px; cursor: pointer;
+  border: 1px solid var(--border-hi); background: transparent; color: var(--text-dim);
+  transition: all 0.15s; user-select: none;
+}
+.filter-btn:hover { color: var(--text); border-color: var(--text-dim); }
+.filter-btn.active { color: #fff; }
+.filter-btn.all.active  { background: rgba(200,151,58,0.2); border-color: var(--gold); color: var(--gold); }
+.filter-btn.major.active { background: rgba(123,45,139,0.25); border-color: var(--major); color: #c57fd8; }
+.filter-btn.p1.active   { background: rgba(0,119,182,0.25);  border-color: var(--p1);   color: #60b8e8; }
+.filter-btn.p2.active   { background: rgba(26,107,58,0.25);  border-color: var(--p2);   color: #60c880; }
+.sort-btn {
+  margin-left: auto; font-size: 11px; color: var(--muted); cursor: pointer;
+  background: transparent; border: none; letter-spacing: 0.04em;
+  display: flex; align-items: center; gap: 5px;
+}
+.sort-btn:hover { color: var(--text); }
+
+/* ── Grid ── */
+.grid-wrap { max-width: 1280px; margin: 0 auto; padding: 24px 20px 60px; }
+.tournament-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+/* ── Tournament card ── */
+.t-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s, background 0.15s;
+  text-decoration: none; display: flex; flex-direction: column;
+}
+.t-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-hi);
+  background: var(--card-hov);
+}
+.t-card-accent {
+  height: 3px; width: 100%; flex-shrink: 0;
+}
+.t-card-accent.major { background: linear-gradient(90deg, var(--major), #a050b8); }
+.t-card-accent.p1    { background: linear-gradient(90deg, var(--p1), #00a8e8); }
+.t-card-accent.p2    { background: linear-gradient(90deg, var(--p2), #28a860); }
+
+.t-card-body { padding: 16px 18px 14px; flex: 1; display: flex; flex-direction: column; }
+.t-card-top  { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 10px; }
+
+.t-tier {
+  font-size: 9px; font-weight: 700; letter-spacing: 0.14em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 3px;
+  flex-shrink: 0;
+}
+.t-tier.major { background: rgba(123,45,139,0.2); color: #c57fd8; border: 1px solid rgba(123,45,139,0.4); }
+.t-tier.p1    { background: rgba(0,119,182,0.2);  color: #60b8e8; border: 1px solid rgba(0,119,182,0.4); }
+.t-tier.p2    { background: rgba(26,107,58,0.2);  color: #60c880; border: 1px solid rgba(26,107,58,0.4); }
+
+.t-date {
+  font-size: 10px; color: var(--muted);
+  font-family: var(--font-mono); letter-spacing: 0.04em;
+}
+
+.t-name {
+  font-family: var(--font-head);
+  font-size: 17px; color: var(--text);
+  line-height: 1.2; margin-bottom: 4px;
+}
+.t-location {
+  font-size: 11px; color: var(--text-dim);
+  display: flex; align-items: center; gap: 5px; margin-bottom: 14px;
+}
+.t-location-flag { font-size: 13px; }
+
+.t-divider { border: none; border-top: 1px solid var(--border); margin: 0 0 12px; }
+
+.t-champion-lbl {
+  font-size: 9px; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 4px;
+  display: flex; align-items: center; gap: 5px;
+}
+.t-champion-name {
+  font-size: 13px; color: var(--text); font-weight: 500;
+}
+.t-champion-score {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--muted); margin-top: 2px;
+}
+
+.t-card-footer {
+  padding: 9px 18px;
+  border-top: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 10px; color: var(--muted);
+}
+.t-card-footer .view-link {
+  color: var(--text-dim); letter-spacing: 0.04em;
+  display: flex; align-items: center; gap: 4px;
+}
+.t-card-footer .view-link::after { content: '→'; }
+.t-card:hover .view-link { color: var(--gold); }
+
+/* ── Empty / loading ── */
+.state-msg {
+  grid-column: 1 / -1; padding: 60px 0;
+  text-align: center; color: var(--muted); font-size: 13px;
+}
+.spinner {
+  width: 20px; height: 20px; margin: 0 auto 12px;
+  border: 2px solid var(--border-hi);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 28px;
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 11px; color: var(--muted);
+}
+footer .brand { font-family: var(--font-head); color: var(--text-dim); }
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero { padding: 36px 18px 28px; }
+  .filter-bar { padding: 10px 18px; }
+  .grid-wrap { padding: 16px 12px 40px; }
+  .tournament-grid { grid-template-columns: 1fr; }
+  .hero-stats { gap: 20px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Top bar -->
+<div class="top-bar">
+  <div class="top-bar-brand">
+    <span>Padel Data Lab</span>
+    <span class="sep">/</span>
+    <span class="circuit">Premier Padel</span>
+  </div>
+  <div class="top-bar-right" id="top-count"></div>
+</div>
+
+<!-- Hero with court watermark -->
+<section class="hero">
+  <div class="court-bg">
+    <svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="1.5">
+      <!-- Outer court -->
+      <rect x="2" y="2" width="296" height="156" rx="0"/>
+      <!-- Service line -->
+      <line x1="2" y1="80" x2="298" y2="80"/>
+      <!-- Centre service boxes -->
+      <line x1="97" y1="2" x2="97" y2="80"/>
+      <line x1="203" y1="2" x2="203" y2="80"/>
+      <line x1="97" y1="80" x2="97" y2="158"/>
+      <line x1="203" y1="80" x2="203" y2="158"/>
+      <!-- Net -->
+      <line x1="2" y1="80" x2="298" y2="80" stroke-width="3" stroke-dasharray="4 3"/>
+      <!-- Glass back walls indicated -->
+      <line x1="20" y1="2" x2="20" y2="158" stroke-width="0.5" stroke-dasharray="3 3" opacity="0.5"/>
+      <line x1="280" y1="2" x2="280" y2="158" stroke-width="0.5" stroke-dasharray="3 3" opacity="0.5"/>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Tournament Results</div>
+    <h1 class="hero-title">Premier Padel<br><em>Season 2026</em></h1>
+    <p class="hero-sub">Draw-by-draw results, performance analysis, and bracket explorer for every tournament on the Premier Padel circuit.</p>
+    <div class="hero-stats">
+      <div><span class="hero-stat-num" id="stat-tournaments">–</span><span class="hero-stat-lbl">Tournaments</span></div>
+      <div><span class="hero-stat-num" id="stat-matches">–</span><span class="hero-stat-lbl">Matches</span></div>
+      <div><span class="hero-stat-num" id="stat-teams">–</span><span class="hero-stat-lbl">Teams</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Filter bar -->
+<div class="filter-bar">
+  <span class="filter-label">Tier</span>
+  <button class="filter-btn all active"   data-filter="all">All</button>
+  <button class="filter-btn major"        data-filter="major">Major</button>
+  <button class="filter-btn p1"           data-filter="p1">P1</button>
+  <button class="filter-btn p2"           data-filter="p2">P2</button>
+  <button class="sort-btn" id="sort-btn" title="Toggle sort order">
+    <span id="sort-label">Oldest first</span>
+  </button>
+</div>
+
+<!-- Grid -->
+<div class="grid-wrap">
+  <div class="tournament-grid" id="grid">
+    <div class="state-msg"><div class="spinner"></div>Loading tournaments…</div>
+  </div>
+</div>
+
+<footer>
+  <span class="brand">Padel Data Lab</span>
+  <span>Data sourced from FIP official draw sheets</span>
+</footer>
+
+<script>
+'use strict';
+
+// ── Path helpers ──────────────────────────────────────────────────────────────
+function basePath() {
+  const p = window.location.pathname.replace(/\/[^/]*$/, '');
+  return window.location.origin + p;
+}
+
+function jsonPath(filename) {
+  return basePath() + '/data/tournaments/' + filename + '.json';
+}
+
+function tournamentPath(filename) {
+  return basePath() + '/tournaments/_template.html?t=' + filename;
+}
+
+// ── Country → flag emoji ──────────────────────────────────────────────────────
+const FLAGS = {
+  KSA:'🇸🇦', ESP:'🇪🇸', USA:'🇺🇸', MEX:'🇲🇽', EGY:'🇪🇬',
+  ITA:'🇮🇹', ARG:'🇦🇷', FRA:'🇫🇷', BRA:'🇧🇷', GBR:'🇬🇧',
+  AUS:'🇦🇺', POR:'🇵🇹', CHI:'🇨🇱',
+};
+
+// ── Date formatter ────────────────────────────────────────────────────────────
+function fmtDateRange(start, end) {
+  const s = new Date(start + 'T00:00:00');
+  const e = new Date(end   + 'T00:00:00');
+  const mo = s.toLocaleDateString('en-GB', { month: 'short' });
+  const yr = s.getFullYear();
+  if (s.getMonth() === e.getMonth()) {
+    return `${s.getDate()}–${e.getDate()} ${mo} ${yr}`;
+  }
+  const mo2 = e.toLocaleDateString('en-GB', { month: 'short' });
+  return `${s.getDate()} ${mo} – ${e.getDate()} ${mo2} ${yr}`;
+}
+
+// ── Score formatter ───────────────────────────────────────────────────────────
+function fmtScore(score, winnerId, team1Id) {
+  if (!score) return '';
+  const isT1 = team1Id === winnerId;
+  return score.map(s => {
+    const w = isT1 ? s.t1 : s.t2;
+    const l = isT1 ? s.t2 : s.t1;
+    return `${w}–${l}`;
+  }).join('  ');
+}
+
+// ── Team label ────────────────────────────────────────────────────────────────
+function teamLabel(teamId, teamsMap) {
+  const t = teamsMap[teamId];
+  if (!t) return teamId;
+  return t.players.map(p => p.surname).join(' / ');
+}
+
+// ── Tier CSS class ────────────────────────────────────────────────────────────
+function tierClass(tier) {
+  return tier === 'Major' ? 'major' : tier === 'P1' ? 'p1' : 'p2';
+}
+
+// ── Build one card ────────────────────────────────────────────────────────────
+function buildCard(filename, data) {
+  const t    = data.tournaments[0];
+  const tc   = tierClass(t.tier);
+  const flag = FLAGS[t.location.country_code] || '🌍';
+
+  // Find champion
+  const winner     = data.tournament_results.find(r => r.round_reached === 'W');
+  const teamsMap   = {};
+  data.teams.forEach(tm => teamsMap[tm.team_id] = tm);
+  const champName  = winner ? teamLabel(winner.team_id, teamsMap) : '—';
+
+  // Final score
+  const finalMatch = data.matches.find(m => m.round === 'Final');
+  const champScore = finalMatch ? fmtScore(finalMatch.score, finalMatch.winner_id, finalMatch.team1_id) : '';
+
+  // Stats
+  const matchCount = data.matches.filter(m => !m.walkover).length;
+  const teamCount  = data.teams.length;
+
+  const card = document.createElement('a');
+  card.className = 't-card';
+  card.href      = tournamentPath(filename);
+  card.dataset.tier    = tc;
+  card.dataset.start   = t.dates.start;
+  card.dataset.matches = matchCount;
+  card.dataset.teams   = teamCount;
+
+  card.innerHTML = `
+    <div class="t-card-accent ${tc}"></div>
+    <div class="t-card-body">
+      <div class="t-card-top">
+        <span class="t-tier ${tc}">${t.tier}</span>
+        <span class="t-date">${fmtDateRange(t.dates.start, t.dates.end)}</span>
+      </div>
+      <div class="t-name">${t.name} ${t.edition}</div>
+      <div class="t-location">
+        <span class="t-location-flag">${flag}</span>
+        <span>${t.location.city}, ${t.location.country}</span>
+      </div>
+      <hr class="t-divider">
+      <div class="t-champion-lbl">🏆 Champion</div>
+      <div class="t-champion-name">${champName}</div>
+      <div class="t-champion-score">${champScore}</div>
+    </div>
+    <div class="t-card-footer">
+      <span>${teamCount} teams &nbsp;·&nbsp; ${matchCount} matches played</span>
+      <span class="view-link">View draw</span>
+    </div>`;
+
+  return card;
+}
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let allCards  = [];   // [{filename, card, start, tier}]
+let activeFilter = 'all';
+let sortAsc      = true;
+
+function renderGrid() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  let visible = allCards.filter(c =>
+    activeFilter === 'all' || c.tier === activeFilter
+  );
+
+  visible.sort((a, b) => {
+    const cmp = a.start.localeCompare(b.start);
+    return sortAsc ? cmp : -cmp;
+  });
+
+  if (!visible.length) {
+    grid.innerHTML = '<div class="state-msg">No tournaments found for this filter.</div>';
+    return;
+  }
+
+  visible.forEach(c => grid.appendChild(c.card));
+}
+
+function updateStats() {
+  const total   = allCards.length;
+  const matches = allCards.reduce((s,c) => s + parseInt(c.card.dataset.matches||0), 0);
+  const teams   = new Set();
+  // we don't have individual team sets here, but we can use card's teams count as a proxy
+  // Just show aggregate
+  const teamsSum = allCards.reduce((s,c) => s + parseInt(c.card.dataset.teams||0), 0);
+
+  document.getElementById('stat-tournaments').textContent = total;
+  document.getElementById('stat-matches').textContent     = matches.toLocaleString();
+  document.getElementById('stat-teams').textContent       = teamsSum.toLocaleString();
+  document.getElementById('top-count').textContent        = `${total} tournament${total !== 1 ? 's' : ''}`;
+}
+
+// ── Filter buttons ────────────────────────────────────────────────────────────
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    renderGrid();
+  });
+});
+
+// ── Sort button ───────────────────────────────────────────────────────────────
+document.getElementById('sort-btn').addEventListener('click', () => {
+  sortAsc = !sortAsc;
+  document.getElementById('sort-label').textContent = sortAsc ? 'Oldest first' : 'Newest first';
+  renderGrid();
+});
+
+// ── Load all tournaments ──────────────────────────────────────────────────────
+async function loadAll() {
+  const grid = document.getElementById('grid');
+
+  // Load manifest
+  let filenames;
+  try {
+    const r = await fetch(basePath() + '/data/tournaments.json');
+    if (!r.ok) throw new Error('manifest not found');
+    filenames = await r.json();
+  } catch {
+    // Fallback hardcoded list
+    filenames = [
+      '2026_02_07_Riyadh_P1_men',
+      '2026_03_01_Gijon_P2_men',
+      '2026_03_15_Cancun_P2_men',
+      '2026_03_22_Miami_P1_men',
+      '2026_04_11_Newgiza_P2_men',
+      '2026_05_31_Italy_major_men',
+    ];
+  }
+
+  // Fetch all tournament JSONs in parallel
+  const results = await Promise.allSettled(
+    filenames.map(async fn => {
+      const r = await fetch(jsonPath(fn));
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const data = await r.json();
+      return { fn, data };
+    })
+  );
+
+  allCards = [];
+  results.forEach(res => {
+    if (res.status === 'fulfilled') {
+      const { fn, data } = res.value;
+      const card = buildCard(fn, data);
+      const t    = data.tournaments[0];
+      allCards.push({
+        filename: fn,
+        card,
+        start: t.dates.start,
+        tier: tierClass(t.tier),
+      });
+    }
+  });
+
+  if (!allCards.length) {
+    grid.innerHTML = '<div class="state-msg">No tournament data could be loaded.<br><small>Ensure JSON files are accessible at data/tournaments/</small></div>';
+    return;
+  }
+
+  updateStats();
+  renderGrid();
+}
+
+loadAll();
+</script>
+</body>
+</html>
