@@ -605,8 +605,11 @@ fetch(JSON_PATH)
         </div>
       </div>`;
 
-    buildSummary();
-    initNav();
+    // Small delay ensures innerHTML is fully committed to the DOM before writing into child elements
+    setTimeout(() => {
+      buildSummary();
+      initNav();
+    }, 0);
   })
   .catch(err => {
     console.error('Failed to load JSON:', err);
