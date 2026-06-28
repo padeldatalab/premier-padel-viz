@@ -1,0 +1,1693 @@
+{
+  "tournaments": [
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "name": "Valladolid P2",
+      "edition": 2026,
+      "tier": "P2",
+      "location": {
+        "city": "Valladolid",
+        "country": "Spain",
+        "country_code": "ESP"
+      },
+      "dates": {
+        "start": "2026-06-21",
+        "end": "2026-06-28"
+      },
+      "prize_fund_eur": 264534,
+      "draw_size": 32,
+      "gender": "men",
+      "rounds": [
+        "R32",
+        "R16",
+        "QF",
+        "SF",
+        "Final"
+      ],
+      "points_structure": {
+        "R32": {
+          "per_player": 30,
+          "team_total": 60
+        },
+        "R16": {
+          "per_player": 60,
+          "team_total": 120
+        },
+        "QF": {
+          "per_player": 120,
+          "team_total": 240
+        },
+        "SF": {
+          "per_player": 240,
+          "team_total": 480
+        },
+        "Final": {
+          "per_player": 400,
+          "team_total": 800
+        },
+        "W": {
+          "per_player": 700,
+          "team_total": 1400
+        }
+      },
+      "prize_structure_eur": {
+        "R32": 0,
+        "R16": 0,
+        "QF": 0,
+        "SF": 0,
+        "Final": 0,
+        "W": 0
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "tapia_coello",
+      "players": [
+        {
+          "surname": "Tapia",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Coello",
+          "first_name": "Arturo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "galan_chingotto",
+      "players": [
+        {
+          "surname": "Galan",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Chingotto",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "lebron_augsburger",
+      "players": [
+        {
+          "surname": "Lebron",
+          "first_name": "Juan",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Augsburger",
+          "first_name": "Leandro Roman",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "stupaczuk_yanguas",
+      "players": [
+        {
+          "surname": "Stupaczuk",
+          "first_name": "Franco",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Yanguas",
+          "first_name": "Miguel",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "nieto_ruiz_sanz",
+      "players": [
+        {
+          "surname": "Nieto Ruiz",
+          "first_name": "Jorge",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Sanz",
+          "first_name": "Jon",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "dinenno_navarro",
+      "players": [
+        {
+          "surname": "Di Nenno",
+          "first_name": "Martin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Navarro",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "guerrero_leal",
+      "players": [
+        {
+          "surname": "Guerrero",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Leal",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "gonzalez_campagnolo",
+      "players": [
+        {
+          "surname": "Gonzalez",
+          "first_name": "Jeronimo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Campagnolo",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        }
+      ]
+    },
+    {
+      "team_id": "chozas_libaak",
+      "players": [
+        {
+          "surname": "Chozas",
+          "first_name": "Alex",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Libaak",
+          "first_name": "Valentino",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "sanchez_blasco_gutierrez",
+      "players": [
+        {
+          "surname": "Sanchez Blasco",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Gutierrez",
+          "first_name": "Carlos Daniel",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "garcia_rodrigo_lijo",
+      "players": [
+        {
+          "surname": "Garcia Rodrigo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Lijo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "rivas_sanchez_arriaga",
+      "players": [
+        {
+          "surname": "Rivas Garcia",
+          "first_name": "Samuel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Sanchez Arriaga",
+          "first_name": "Alfonso",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "jofre_bautista",
+      "players": [
+        {
+          "surname": "Jofre",
+          "first_name": "Inigo",
+          "nationality": "UAE"
+        },
+        {
+          "surname": "Bautista",
+          "first_name": "Jairo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "ruiz_v_ortega",
+      "players": [
+        {
+          "surname": "Ruiz",
+          "first_name": "Victor",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Ortega",
+          "first_name": "Mario",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "perry_zamora",
+      "players": [
+        {
+          "surname": "Perry",
+          "first_name": "Pedro",
+          "nationality": "POR"
+        },
+        {
+          "surname": "Zamora Perez",
+          "first_name": "Juan",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "ruiz_a_esbri",
+      "players": [
+        {
+          "surname": "Ruiz",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Esbri",
+          "first_name": "Juanlu",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "sintes_santigosa",
+      "players": [
+        {
+          "surname": "Sintes Villalonga",
+          "first_name": "Marc",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Santigosa Sastre",
+          "first_name": "Daniel",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "hernandez_collado",
+      "players": [
+        {
+          "surname": "Hernandez Alvarez",
+          "first_name": "Pol",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Collado",
+          "first_name": "Guillermo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "arroyo_aguirre",
+      "players": [
+        {
+          "surname": "Arroyo",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Aguirre",
+          "first_name": "Leonel Daniel",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "gil_castano",
+      "players": [
+        {
+          "surname": "Gil",
+          "first_name": "Francisco Manuel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Castano",
+          "first_name": "Manuel",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "alonso_goni",
+      "players": [
+        {
+          "surname": "Alonso",
+          "first_name": "Eduardo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Goni Lacabe",
+          "first_name": "Aimar",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "rodriguez_de_pascual",
+      "players": [
+        {
+          "surname": "Rodriguez Martinez",
+          "first_name": "Alonso",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "De Pascual",
+          "first_name": "Juan Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "rubio_ruiz_gonzalez",
+      "players": [
+        {
+          "surname": "Rubio",
+          "first_name": "Gonzalo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Ruiz Gonzalez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "jimenez_garcia_j",
+      "players": [
+        {
+          "surname": "Jimenez Casas",
+          "first_name": "Jose",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Garcia",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "coello_manso_axelsson",
+      "players": [
+        {
+          "surname": "Coello Manso",
+          "first_name": "Rodrigo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Axelsson",
+          "first_name": "Adam",
+          "nationality": "SWE"
+        }
+      ]
+    },
+    {
+      "team_id": "gala_jensen",
+      "players": [
+        {
+          "surname": "Gala",
+          "first_name": "David",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Jensen Sirvent",
+          "first_name": "Enzo",
+          "nationality": "ITA"
+        }
+      ]
+    },
+    {
+      "team_id": "diestro_piotto",
+      "players": [
+        {
+          "surname": "Diestro",
+          "first_name": "Jose Antonio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Piotto Albornoz",
+          "first_name": "Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "hernandez_quesada_martinez",
+      "players": [
+        {
+          "surname": "Hernandez Quesada",
+          "first_name": "Luis",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Martinez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    }
+  ],
+  "tournament_entries": [
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "tapia_coello",
+      "seed": 1,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 43388,
+      "draw_half": "top",
+      "draw_position": 1
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "chozas_libaak",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 3
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "sanchez_blasco_gutierrez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 4
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "garcia_rodrigo_lijo",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 5
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "rivas_sanchez_arriaga",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 6
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "jofre_bautista",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 7
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "nieto_ruiz_sanz",
+      "seed": 5,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 11091,
+      "draw_half": "top",
+      "draw_position": 8
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "gonzalez_campagnolo",
+      "seed": 8,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 7398,
+      "draw_half": "top",
+      "draw_position": 9
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "ruiz_v_ortega",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 10
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "perry_zamora",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 11
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "ruiz_a_esbri",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 12
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "sintes_santigosa",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 13
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "hernandez_collado",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 14
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "lebron_augsburger",
+      "seed": 3,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 14839,
+      "draw_half": "top",
+      "draw_position": 16
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "stupaczuk_yanguas",
+      "seed": 4,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 13967,
+      "draw_half": "bottom",
+      "draw_position": 17
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "arroyo_aguirre",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 18
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "gil_castano",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 19
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "alonso_goni",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 20
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "rodriguez_de_pascual",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 21
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "rubio_ruiz_gonzalez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 22
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "guerrero_leal",
+      "seed": 7,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 7771,
+      "draw_half": "bottom",
+      "draw_position": 23
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "dinenno_navarro",
+      "seed": 6,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 10936,
+      "draw_half": "bottom",
+      "draw_position": 24
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "jimenez_garcia_j",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 25
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "coello_manso_axelsson",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 26
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "gala_jensen",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 27
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "diestro_piotto",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 28
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "hernandez_quesada_martinez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 29
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "galan_chingotto",
+      "seed": 2,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 35338,
+      "draw_half": "bottom",
+      "draw_position": 32
+    }
+  ],
+  "matches": [
+    {
+      "match_id": "valladolid26_r32_t01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "bye",
+      "winner_id": "tapia_coello",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_t02",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "chozas_libaak",
+      "team2_id": "sanchez_blasco_gutierrez",
+      "winner_id": "chozas_libaak",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_t03",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "garcia_rodrigo_lijo",
+      "team2_id": "rivas_sanchez_arriaga",
+      "winner_id": "garcia_rodrigo_lijo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_t04",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "jofre_bautista",
+      "team2_id": "nieto_ruiz_sanz",
+      "winner_id": "jofre_bautista",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": "nieto_ruiz_sanz"
+    },
+    {
+      "match_id": "valladolid26_r32_t05",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 5,
+      "team1_id": "gonzalez_campagnolo",
+      "team2_id": "ruiz_v_ortega",
+      "winner_id": "gonzalez_campagnolo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_t06",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 6,
+      "team1_id": "ruiz_a_esbri",
+      "team2_id": "perry_zamora",
+      "winner_id": "ruiz_a_esbri",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_t07",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 7,
+      "team1_id": "hernandez_collado",
+      "team2_id": "sintes_santigosa",
+      "winner_id": "hernandez_collado",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_t08",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 8,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "bye",
+      "winner_id": "lebron_augsburger",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "bye",
+      "winner_id": "stupaczuk_yanguas",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b02",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "arroyo_aguirre",
+      "team2_id": "gil_castano",
+      "winner_id": "gil_castano",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b03",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "alonso_goni",
+      "team2_id": "rodriguez_de_pascual",
+      "winner_id": "rodriguez_de_pascual",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 4
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b04",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "rubio_ruiz_gonzalez",
+      "team2_id": "guerrero_leal",
+      "winner_id": "guerrero_leal",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 4
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b05",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 5,
+      "team1_id": "dinenno_navarro",
+      "team2_id": "bye",
+      "winner_id": "dinenno_navarro",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b06",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 6,
+      "team1_id": "jimenez_garcia_j",
+      "team2_id": "coello_manso_axelsson",
+      "winner_id": "coello_manso_axelsson",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b07",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 7,
+      "team1_id": "gala_jensen",
+      "team2_id": "diestro_piotto",
+      "winner_id": "gala_jensen",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b08",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 8,
+      "team1_id": "hernandez_quesada_martinez",
+      "team2_id": "bye",
+      "winner_id": "hernandez_quesada_martinez",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r32_b09",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 9,
+      "team1_id": "galan_chingotto",
+      "team2_id": "bye",
+      "winner_id": "galan_chingotto",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_t01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "chozas_libaak",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_t02",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "jofre_bautista",
+      "team2_id": "garcia_rodrigo_lijo",
+      "winner_id": "jofre_bautista",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_t03",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "gonzalez_campagnolo",
+      "team2_id": "ruiz_a_esbri",
+      "winner_id": "gonzalez_campagnolo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_t04",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "hernandez_collado",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 1
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_b01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "gil_castano",
+      "winner_id": "stupaczuk_yanguas",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_b02",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "guerrero_leal",
+      "team2_id": "rodriguez_de_pascual",
+      "winner_id": "guerrero_leal",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_b03",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "dinenno_navarro",
+      "team2_id": "coello_manso_axelsson",
+      "winner_id": "dinenno_navarro",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_r16_b04",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "galan_chingotto",
+      "team2_id": "gala_jensen",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_qf_t01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "jofre_bautista",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_qf_t02",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "gonzalez_campagnolo",
+      "winner_id": "lebron_augsburger",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": "gonzalez_campagnolo"
+    },
+    {
+      "match_id": "valladolid26_qf_b01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "guerrero_leal",
+      "team2_id": "stupaczuk_yanguas",
+      "winner_id": "guerrero_leal",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 0
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_qf_b02",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "galan_chingotto",
+      "team2_id": "dinenno_navarro",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_sf_t01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "SF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "lebron_augsburger",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_sf_b01",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "SF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "galan_chingotto",
+      "team2_id": "guerrero_leal",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "valladolid26_final",
+      "tournament_id": "valladolid_p2_2026",
+      "round": "Final",
+      "draw_half": null,
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "galan_chingotto",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    }
+  ],
+  "tournament_results": [
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "tapia_coello",
+      "seed": 1,
+      "round_reached": "W",
+      "points_earned_per_player": 700,
+      "points_earned_team": 1400
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "galan_chingotto",
+      "seed": 2,
+      "round_reached": "Final",
+      "points_earned_per_player": 400,
+      "points_earned_team": 800
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "lebron_augsburger",
+      "seed": 3,
+      "round_reached": "SF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "guerrero_leal",
+      "seed": 7,
+      "round_reached": "SF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "jofre_bautista",
+      "seed": null,
+      "round_reached": "QF",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "gonzalez_campagnolo",
+      "seed": 8,
+      "round_reached": "QF",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "stupaczuk_yanguas",
+      "seed": 4,
+      "round_reached": "QF",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "dinenno_navarro",
+      "seed": 6,
+      "round_reached": "QF",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "chozas_libaak",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "garcia_rodrigo_lijo",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "ruiz_a_esbri",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "hernandez_collado",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "gil_castano",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "rodriguez_de_pascual",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "coello_manso_axelsson",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "gala_jensen",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "sanchez_blasco_gutierrez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "rivas_sanchez_arriaga",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "nieto_ruiz_sanz",
+      "seed": 5,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "ruiz_v_ortega",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "perry_zamora",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "sintes_santigosa",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "arroyo_aguirre",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "alonso_goni",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "rubio_ruiz_gonzalez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "jimenez_garcia_j",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "diestro_piotto",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 30,
+      "points_earned_team": 60
+    },
+    {
+      "tournament_id": "valladolid_p2_2026",
+      "team_id": "hernandez_quesada_martinez",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    }
+  ]
+}
