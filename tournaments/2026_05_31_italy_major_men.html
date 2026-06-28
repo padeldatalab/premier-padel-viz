@@ -375,6 +375,7 @@ html, body {
 <!-- ═══════════════════ VIEW: SUMMARY ═══════════════════ -->
 <div id="view-summary" class="view active">
   <div class="s-card">
+    <div id="s-load-status" style="display:flex;align-items:center;gap:12px;padding:16px 24px;color:var(--muted);font-size:12px;border-bottom:1px solid var(--border)"><div style="width:16px;height:16px;border:2px solid var(--green-dim);border-top-color:var(--green-acc);border-radius:50%;animation:spin 0.8s linear infinite;flex-shrink:0"></div><span>Loading tournament data…</span></div>
     <div id="s-champ"></div>
     <div id="s-results"></div>
     <div id="s-matches"></div>
@@ -431,25 +432,18 @@ html, body {
 // LOADING STATE
 // ─────────────────────────────────────────────────────────────────────────────
 function showLoader(msg) {
-  document.getElementById('view-summary').innerHTML = `
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;
-                height:60vh;gap:16px;color:var(--muted);font-size:13px;">
-      <div style="width:36px;height:36px;border:2px solid var(--green-dim);
-                  border-top-color:var(--green-acc);border-radius:50%;
-                  animation:spin 0.8s linear infinite;"></div>
-      <span>${msg}</span>
-    </div>`;
+  // Don't replace summary DOM — show a status bar instead
+  const el = document.getElementById('s-load-status');
+  if (el) { el.style.display = 'flex'; el.querySelector('span').textContent = msg; }
 }
 
 function showError(msg) {
-  document.getElementById('view-summary').innerHTML = `
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;
-                height:60vh;gap:12px;color:#c07070;font-size:13px;padding:24px;text-align:center;">
-      <span style="font-size:24px">⚠</span>
-      <strong>Could not load tournament data</strong>
-      <span style="color:var(--muted)">${msg}</span>
-      <span style="color:var(--muted);font-size:11px">Make sure you are running this from a web server, not a local file.</span>
-    </div>`;
+  const el = document.getElementById('s-load-status');
+  if (el) {
+    el.style.background = 'rgba(140,48,48,0.15)';
+    el.style.borderColor = 'rgba(140,48,48,0.4)';
+    el.innerHTML = `<span style="color:#c07070">⚠ ${msg} — check browser console for details. If running locally, use a web server (python3 -m http.server).</span>`;
+  }
 }
 
 // Spinner keyframe
@@ -579,7 +573,15 @@ function transformJSON(json) {
 // FETCH  →  TRANSFORM  →  RENDER
 // ─────────────────────────────────────────────────────────────────────────────
 // Path relative to this HTML file's location in tournaments/
-const JSON_PATH = '../data/tournaments/2026_05_31_Italy_major_men.json';
+// Resolve path relative to this script's location
+// Works whether HTML is at root or in a subfolder
+const JSON_PATH = (() => {
+  const base = window.location.pathname.replace(/\/[^\/]*$/, '');
+  // If in /tournaments/ subfolder, go up one level; otherwise use current dir
+  const up = base.endsWith('/tournaments') ? base.replace('/tournaments', '') : base;
+  return up + '/data/tournaments/2026_05_31_Italy_major_men.json';
+})();
+console.log('Fetching JSON from:', JSON_PATH);
 
 showLoader('Loading tournament data…');
 
@@ -589,30 +591,25 @@ fetch(JSON_PATH)
     return res.json();
   })
   .then(json => {
-    transformJSON(json);
-
-    // Restore the summary view HTML (loader replaced it)
-    document.getElementById('view-summary').innerHTML = `
-      <div class="s-card">
-        <div id="s-champ"></div>
-        <div id="s-results"></div>
-        <div id="s-matches"></div>
-        <div class="s-notice"><span>⚠</span><span>Retirement: G. Rubio / J. Ruiz Gonzalez withdrew during R64</span></div>
-        <div id="s-stats" class="s-stats"></div>
-        <div class="s-footer">
-          <span style="font-family:var(--font-head)">Premier Padel</span>
-          <span>Data: FIP Official Draw · Released 31 May 2026</span>
-        </div>
-      </div>`;
-
-    // Small delay ensures innerHTML is fully committed to the DOM before writing into child elements
-    setTimeout(() => {
+    try {
+      transformJSON(json);
+    } catch(e) {
+      console.error('transformJSON failed:', e);
+      showError('Data transform error: ' + e.message);
+      return;
+    }
+    try {
+      const loader = document.getElementById('s-load-status');
+      if (loader) loader.style.display = 'none';
       buildSummary();
       initNav();
-    }, 0);
+    } catch(e) {
+      console.error('buildSummary failed:', e);
+      showError('Render error: ' + e.message);
+    }
   })
   .catch(err => {
-    console.error('Failed to load JSON:', err);
+    console.error('Fetch failed:', err);
     showError(err.message);
   });
 
