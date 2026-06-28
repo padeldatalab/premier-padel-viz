@@ -859,13 +859,68 @@ function buildChart() {
 // BUILD BRACKET (lazy)
 // ─────────────────────────────────────────────────────────────────────────────
 function buildBracket() {
-  // Use global BM_MATCHES populated from JSON
   const BM = BM_MATCHES;
-  // Match data loaded from JSON — see transformJSON() above
   const CW=158, CH=48, CG=28, mH=CH*2+1, uH=mH+8;
   const topR = [{r:'R64',c:16},{r:'R32',c:8},{r:'R16',c:4},{r:'QF',c:2},{r:'SF',c:1}];
   const botR = [...topR].reverse();
   const gap  = `<div style="width:${CG}px;flex-shrink:0"></div>`;
+
+  function gm(r,h,n) { return BM[`${r}_${h}_${n}`] || null; }
+
+  function sc(sets) {
+    if (!sets || !sets.length) return '';
+    return sets.map(s => s.tb != null ? `${s.t1}-${s.t2}(${s.tb})` : `${s.t1}-${s.t2}`).join(' ');
+  }
+
+  function bRow(id, wid, ret, isBye, sets, showScore, rev) {
+    const t = TEAM_DATA[id] || { p1:id, p2:'' };
+    const isActualBye = id === 'bye';
+    const isW = id === wid;
+    const isL = wid && !isW && !isActualBye;
+    const isR = ret === id;
+    let cls = 'b-team-row';
+    if (rev)         cls += ' b-rev';
+    if (isActualBye) cls += ' b-bye';
+    else if (isW)    cls += ' b-winner';
+    else if (isL)    cls += ' b-loser';
+    const s = t.seed;
+    const seed = s ? `<span class="b-seed${s<=2?' b-top2':''}">${s}</span>` : `<span class="b-seed"></span>`;
+    const score = (showScore && isW && sets) ? sc(sets) : '';
+    const rdot = isR ? `<span class="b-ret" title="Retired"></span>` : '';
+    return `<div class="${cls}">${seed}<div class="b-name"><span>${t.p1}</span><span>${t.p2}</span></div>${rdot}<div class="b-score">${score}</div></div>`;
+  }
+
+  function mCard(m, rev, isFinal) {
+    if (!m) {
+      const e = `<div class="b-team-row${rev?' b-rev':''}"><span class="b-seed"></span><div class="b-name"><span>—</span></div><div class="b-score"></div></div>`;
+      return `<div class="b-match">${e}${e}</div>`;
+    }
+    const fc = isFinal ? ' b-final' : '';
+    return `<div class="b-match${fc}">
+      ${bRow(m.t1, m.w, m.ret, m.t2==='bye', m.s, true,  rev)}
+      ${bRow(m.t2, m.w, m.ret, m.t1==='bye', m.s, false, rev)}
+    </div>`;
+  }
+
+  function buildCol(matches, totalSlots, colIdx, rev) {
+    const slotSize = totalSlots / matches.length;
+    const groupH   = slotSize * uH;
+    const topSp    = colIdx === 0 ? 0 : (groupH - mH) / 2;
+    const botSp    = colIdx === 0 ? 8 : (groupH - mH) / 2;
+    let html = '<div class="b-round-col">';
+    matches.forEach(m => {
+      html += `<div style="height:${topSp}px;flex-shrink:0"></div>`;
+      html += mCard(m, rev, false);
+      html += `<div style="height:${botSp}px;flex-shrink:0"></div>`;
+    });
+    return html + '</div>';
+  }
+
+  function hm(h, r, c) {
+    const a = [];
+    for (let i = 1; i <= c; i++) a.push(gm(r, h, i));
+    return a;
+  }
 
   // Headers
   const hdrs = ['R64','R32','R16','QF','SF','FINAL','SF','QF','R16','R32','R64'];
@@ -878,8 +933,8 @@ function buildBracket() {
   // Bracket row
   const row = document.getElementById('b-row');
   topR.forEach(({r,c},i) => {
-    if(i>0) row.insertAdjacentHTML('beforeend',gap);
-    row.insertAdjacentHTML('beforeend', buildCol(hm('top',r,c),16,i,false));
+    if (i>0) row.insertAdjacentHTML('beforeend', gap);
+    row.insertAdjacentHTML('beforeend', buildCol(hm('top',r,c), 16, i, false));
   });
 
   const finalM = gm('Final','top',1);
@@ -887,13 +942,13 @@ function buildBracket() {
   row.insertAdjacentHTML('beforeend', gap);
   row.insertAdjacentHTML('beforeend', `<div class="b-round-col">
     <div style="height:${fTopSp}px;flex-shrink:0"></div>
-    ${mCard(finalM,false,true)}
+    ${mCard(finalM, false, true)}
     <div style="height:${fTopSp}px;flex-shrink:0"></div>
   </div>`);
 
   botR.forEach(({r,c},i) => {
-    row.insertAdjacentHTML('beforeend',gap);
-    row.insertAdjacentHTML('beforeend', buildCol(hm('bot',r,c),16,botR.length-1-i,true));
+    row.insertAdjacentHTML('beforeend', gap);
+    row.insertAdjacentHTML('beforeend', buildCol(hm('bot',r,c), 16, botR.length-1-i, true));
   });
 }
 
