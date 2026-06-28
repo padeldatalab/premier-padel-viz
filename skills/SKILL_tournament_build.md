@@ -282,14 +282,40 @@ print("All checks passed")
 
 ---
 
-## Step 6 — Output
+## Step 6 — Thin HTML wrapper
 
-Deliver only:
-1. **JSON file** named `YYYY_MM_DD_Name_gender.json`
+Generate a single 9-line HTML file that redirects to the template with the correct query string.
+This is the **only HTML Claude ever produces per tournament** — no rendering logic, no CSS.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0;url=_template.html?t=YYYY_MM_DD_Name_gender">
+  <title>Tournament Name YYYY – Men's/Women's Draw</title>
+</head>
+<body>
+  <script>window.location.replace('_template.html?t=YYYY_MM_DD_Name_gender');</script>
+</body>
+</html>
+```
+
+Replace `YYYY_MM_DD_Name_gender` with the JSON filename stem (no `.json`).  
+Replace the `<title>` with the tournament name, year, and gender.
+
+**Repo destination:** `tournaments/YYYY_MM_DD_Name_gender.html`
+
+---
+
+## Step 7 — Output
+
+Deliver in this order:
+1. **JSON file** → `data/tournaments/YYYY_MM_DD_Name_gender.json`
+2. **HTML wrapper** → `tournaments/YYYY_MM_DD_Name_gender.html`
 
 After delivering, state:
 - Total teams · total matches · any anomalies (retirements, walkovers, missing scores)
-- Repo destination: `data/tournaments/YYYY_MM_DD_Name_gender.json`
 - Preview URL: `tournaments/_template.html?t=YYYY_MM_DD_Name_gender`
 - Reminder: run `merge_tournaments.py` after pushing the JSON
 
