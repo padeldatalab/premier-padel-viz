@@ -1,0 +1,3022 @@
+{
+  "tournaments": [
+    {
+      "tournament_id": "miami_p1_2026",
+      "name": "Miami P1",
+      "edition": 2026,
+      "tier": "P1",
+      "location": {
+        "city": "Miami",
+        "country": "USA",
+        "country_code": "USA"
+      },
+      "dates": {
+        "start": "2026-03-22",
+        "end": "2026-03-29"
+      },
+      "prize_fund_eur": 479068,
+      "draw_size": 48,
+      "gender": "men",
+      "rounds": [
+        "R64",
+        "R32",
+        "R16",
+        "QF",
+        "SF",
+        "Final"
+      ],
+      "points_structure": {
+        "R64": {
+          "per_player": 22,
+          "team_total": 44
+        },
+        "R32": {
+          "per_player": 45,
+          "team_total": 90
+        },
+        "R16": {
+          "per_player": 90,
+          "team_total": 180
+        },
+        "QF": {
+          "per_player": 180,
+          "team_total": 360
+        },
+        "SF": {
+          "per_player": 360,
+          "team_total": 720
+        },
+        "Final": {
+          "per_player": 600,
+          "team_total": 1200
+        },
+        "W": {
+          "per_player": 1000,
+          "team_total": 2000
+        }
+      },
+      "prize_structure_eur": {
+        "R64": 0,
+        "R32": 0,
+        "R16": 0,
+        "QF": 0,
+        "SF": 0,
+        "Final": 0,
+        "W": 0
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "tapia_coello",
+      "players": [
+        {
+          "surname": "Tapia",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Coello",
+          "first_name": "Arturo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "galan_chingotto",
+      "players": [
+        {
+          "surname": "Galan",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Chingotto",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "stupaczuk_yanguas",
+      "players": [
+        {
+          "surname": "Stupaczuk",
+          "first_name": "Franco",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Yanguas",
+          "first_name": "Miguel",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "lebron_augsburger",
+      "players": [
+        {
+          "surname": "Lebron",
+          "first_name": "Juan",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Augsburger",
+          "first_name": "Leandro Roman",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "sanz_nieto_ruiz",
+      "players": [
+        {
+          "surname": "Sanz",
+          "first_name": "Jon",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Nieto Ruiz",
+          "first_name": "Jorge",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "guerrero_navarro",
+      "players": [
+        {
+          "surname": "Guerrero",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Navarro",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "gonzalez_dinenno",
+      "players": [
+        {
+          "surname": "Gonzalez",
+          "first_name": "Jeronimo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Di Nenno",
+          "first_name": "Martin",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "garrido_bergamini",
+      "players": [
+        {
+          "surname": "Garrido",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Bergamini",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        }
+      ]
+    },
+    {
+      "team_id": "leal_cardona",
+      "players": [
+        {
+          "surname": "Leal",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Cardona",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "alonso_tello",
+      "players": [
+        {
+          "surname": "Alonso",
+          "first_name": "Eduardo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Tello",
+          "first_name": "Juan",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "barahona_garcia",
+      "players": [
+        {
+          "surname": "Barahona",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Garcia",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "esbri_ruiz_granados",
+      "players": [
+        {
+          "surname": "Esbri",
+          "first_name": "Juanlu",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Ruiz Granados",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "bautista_campagnolo",
+      "players": [
+        {
+          "surname": "Bautista",
+          "first_name": "Jairo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Campagnolo",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        }
+      ]
+    },
+    {
+      "team_id": "aguirre_arroyo",
+      "players": [
+        {
+          "surname": "Aguirre",
+          "first_name": "Leonel Daniel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Arroyo",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "gutierrez_c_alfonso",
+      "players": [
+        {
+          "surname": "Gutierrez",
+          "first_name": "Carlos Daniel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Alfonso",
+          "first_name": "Gonzalo Gabriel",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "libaak_chozas",
+      "players": [
+        {
+          "surname": "Libaak",
+          "first_name": "Valentino",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Chozas",
+          "first_name": "Alex",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "torre_cabeza",
+      "players": [
+        {
+          "surname": "Torre",
+          "first_name": "Eduardo Agustin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Cabeza Teres",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "quilez_mourino",
+      "players": [
+        {
+          "surname": "Quilez",
+          "first_name": "Marc",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Mourino",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "perino_piotto",
+      "players": [
+        {
+          "surname": "Perino",
+          "first_name": "Denis Tomas",
+          "nationality": "ITA"
+        },
+        {
+          "surname": "Piotto Albornoz",
+          "first_name": "Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "santigosa_sintes",
+      "players": [
+        {
+          "surname": "Santigosa Sastre",
+          "first_name": "Daniel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Sintes Villalonga",
+          "first_name": "Marc",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "sanchez_aguero_gil",
+      "players": [
+        {
+          "surname": "Sanchez Aguero",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Gil Morales",
+          "first_name": "Francisco Manuel",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "jofre_castano",
+      "players": [
+        {
+          "surname": "Jofre",
+          "first_name": "Inigo",
+          "nationality": "UAE"
+        },
+        {
+          "surname": "Castano",
+          "first_name": "Manuel",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "arce_simo_lijo",
+      "players": [
+        {
+          "surname": "Arce Simo",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Lijo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "goenaga_goni",
+      "players": [
+        {
+          "surname": "Goenaga",
+          "first_name": "Enrique",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Goni Lacabe",
+          "first_name": "Aimar",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "segura_segura",
+      "players": [
+        {
+          "surname": "Segura",
+          "first_name": "Matias",
+          "nationality": "USA"
+        },
+        {
+          "surname": "Segura",
+          "first_name": "Aaron",
+          "nationality": "USA"
+        }
+      ]
+    },
+    {
+      "team_id": "jensen_hernandez",
+      "players": [
+        {
+          "surname": "Jensen Sirvent",
+          "first_name": "Enzo",
+          "nationality": "ITA"
+        },
+        {
+          "surname": "Hernandez Quesada",
+          "first_name": "Luis",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "capra_ruiz",
+      "players": [
+        {
+          "surname": "Capra",
+          "first_name": "Luciano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Ruiz",
+          "first_name": "Victor",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "rubio_ruiz_gonzalez",
+      "players": [
+        {
+          "surname": "Rubio",
+          "first_name": "Gonzalo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Ruiz Gonzalez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "melendez_melendez",
+      "players": [
+        {
+          "surname": "Melendez Amaya",
+          "first_name": "Alvaro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Melendez Amaya",
+          "first_name": "Pedro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "garcia_rodrigo_gala",
+      "players": [
+        {
+          "surname": "Garcia Rodrigo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Gala Sanchez",
+          "first_name": "David",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "montiel_abbate",
+      "players": [
+        {
+          "surname": "Montiel Caruso",
+          "first_name": "Alvaro",
+          "nationality": "ITA"
+        },
+        {
+          "surname": "Abbate",
+          "first_name": "Flavio",
+          "nationality": "ITA"
+        }
+      ]
+    },
+    {
+      "team_id": "gutierrez_a_oria",
+      "players": [
+        {
+          "surname": "Gutierrez",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Oria",
+          "first_name": "Salvador",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "chris_osses",
+      "players": [
+        {
+          "surname": "Chris Humphreys",
+          "first_name": "Chris",
+          "nationality": "USA"
+        },
+        {
+          "surname": "Osses Konig",
+          "first_name": "Felipe",
+          "nationality": "USA"
+        }
+      ]
+    },
+    {
+      "team_id": "collado_hernandez",
+      "players": [
+        {
+          "surname": "Collado Losada",
+          "first_name": "Guillermo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Hernandez Alvarez",
+          "first_name": "Pol",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "sager_rubini",
+      "players": [
+        {
+          "surname": "Sager",
+          "first_name": "Ignacio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Rubini",
+          "first_name": "Juan Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "ayats_cepero",
+      "players": [
+        {
+          "surname": "Ayats Delgado",
+          "first_name": "Arnau",
+          "nationality": "UAE"
+        },
+        {
+          "surname": "Cepero",
+          "first_name": "Alvaro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "leygue_deus",
+      "players": [
+        {
+          "surname": "Leygue",
+          "first_name": "Thomas",
+          "nationality": "FRA"
+        },
+        {
+          "surname": "Deus",
+          "first_name": "Nuno",
+          "nationality": "POR"
+        }
+      ]
+    },
+    {
+      "team_id": "valenzuela_martinez",
+      "players": [
+        {
+          "surname": "Valenzuela",
+          "first_name": "Ramiro Jesus",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Martinez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "patiniotis_axelsson",
+      "players": [
+        {
+          "surname": "Patiniotis",
+          "first_name": "Aris",
+          "nationality": "ITA"
+        },
+        {
+          "surname": "Axelsson",
+          "first_name": "Adam",
+          "nationality": "SWE"
+        }
+      ]
+    },
+    {
+      "team_id": "belluati_dominguez",
+      "players": [
+        {
+          "surname": "Belluati",
+          "first_name": "Juan Cruz",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Dominguez",
+          "first_name": "Facundo",
+          "nationality": "ITA"
+        }
+      ]
+    },
+    {
+      "team_id": "valdes_nunez",
+      "players": [
+        {
+          "surname": "Valdes",
+          "first_name": "Javier",
+          "nationality": "CHI"
+        },
+        {
+          "surname": "Nunez",
+          "first_name": "Renzo Gabriel",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "del_castillo_vilarino",
+      "players": [
+        {
+          "surname": "Del Castillo",
+          "first_name": "Mario",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Vilarino Gestoso",
+          "first_name": "Ignacio",
+          "nationality": "UAE"
+        }
+      ]
+    },
+    {
+      "team_id": "guichard_blanque",
+      "players": [
+        {
+          "surname": "Guichard",
+          "first_name": "Dylan",
+          "nationality": "FRA"
+        },
+        {
+          "surname": "Blanque",
+          "first_name": "Bastien",
+          "nationality": "FRA"
+        }
+      ]
+    },
+    {
+      "team_id": "rodriguez_de_pascual",
+      "players": [
+        {
+          "surname": "Rodriguez Martinez",
+          "first_name": "Alonso",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "De Pascual",
+          "first_name": "Juan Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "sanchez_jimenez",
+      "players": [
+        {
+          "surname": "Sanchez Blasco",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Jimenez Casas",
+          "first_name": "Jose",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "fernandez_lancha_diestro",
+      "players": [
+        {
+          "surname": "Fernandez Lancha",
+          "first_name": "Andres",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Diestro",
+          "first_name": "Jose Antonio",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "di_francesco_agritelley",
+      "players": [
+        {
+          "surname": "Di Francesco Calderon",
+          "first_name": "Vinny Nahuel",
+          "nationality": "USA"
+        },
+        {
+          "surname": "Agritelley",
+          "first_name": "Nicholas",
+          "nationality": "USA"
+        }
+      ]
+    },
+    {
+      "team_id": "fernandez_gonzalez_jl",
+      "players": [
+        {
+          "surname": "Fernandez",
+          "first_name": "Antonio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Gonzalez",
+          "first_name": "Jose Luis",
+          "nationality": "ESP"
+        }
+      ]
+    }
+  ],
+  "tournament_entries": [
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "tapia_coello",
+      "seed": 1,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 40320,
+      "draw_half": "top",
+      "draw_position": 1
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "torre_cabeza",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 3
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "quilez_mourino",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 4
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "perino_piotto",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 5
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "santigosa_sintes",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 6
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "aguirre_arroyo",
+      "seed": 14,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 4305,
+      "draw_half": "top",
+      "draw_position": 8
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "leal_cardona",
+      "seed": 9,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 6736,
+      "draw_half": "top",
+      "draw_position": 9
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sanchez_aguero_gil",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 11
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "jofre_castano",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 12
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "arce_simo_lijo",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 13
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "goenaga_goni",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 14
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "guerrero_navarro",
+      "seed": 6,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 11320,
+      "draw_half": "top",
+      "draw_position": 16
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sanz_nieto_ruiz",
+      "seed": 5,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 11357,
+      "draw_half": "top",
+      "draw_position": 17
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "segura_segura",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 19
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "jensen_hernandez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 20
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "capra_ruiz",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 21
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "rubio_ruiz_gonzalez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 22
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "gutierrez_c_alfonso",
+      "seed": 15,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 3948,
+      "draw_half": "top",
+      "draw_position": 24
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "alonso_tello",
+      "seed": 10,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 6470,
+      "draw_half": "top",
+      "draw_position": 25
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "melendez_melendez",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 27
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "garcia_rodrigo_gala",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 28
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "montiel_abbate",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 29
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "gutierrez_a_oria",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 30
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "lebron_augsburger",
+      "seed": 4,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 12250,
+      "draw_half": "top",
+      "draw_position": 32
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "stupaczuk_yanguas",
+      "seed": 3,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 13365,
+      "draw_half": "bottom",
+      "draw_position": 33
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "chris_osses",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 35
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "collado_hernandez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 36
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sager_rubini",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 37
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "ayats_cepero",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 38
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "esbri_ruiz_granados",
+      "seed": 12,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 5025,
+      "draw_half": "bottom",
+      "draw_position": 40
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "bautista_campagnolo",
+      "seed": 13,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 4577,
+      "draw_half": "bottom",
+      "draw_position": 41
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "leygue_deus",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 43
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "valenzuela_martinez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "patiniotis_axelsson",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 45
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "belluati_dominguez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 46
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "gonzalez_dinenno",
+      "seed": 7,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 9370,
+      "draw_half": "bottom",
+      "draw_position": 48
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "garrido_bergamini",
+      "seed": 8,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 7555,
+      "draw_half": "bottom",
+      "draw_position": 49
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "valdes_nunez",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 51
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "del_castillo_vilarino",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 52
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "guichard_blanque",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 53
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "rodriguez_de_pascual",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 54
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "barahona_garcia",
+      "seed": 11,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 5075,
+      "draw_half": "bottom",
+      "draw_position": 56
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "libaak_chozas",
+      "seed": 16,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 3753,
+      "draw_half": "bottom",
+      "draw_position": 57
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sanchez_jimenez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 59
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "fernandez_lancha_diestro",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 60
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "di_francesco_agritelley",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 61
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "fernandez_gonzalez_jl",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 62
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "galan_chingotto",
+      "seed": 2,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 36320,
+      "draw_half": "bottom",
+      "draw_position": 64
+    }
+  ],
+  "matches": [
+    {
+      "match_id": "miami26_r64_t01",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "bye",
+      "winner_id": "tapia_coello",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t02",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "torre_cabeza",
+      "team2_id": "quilez_mourino",
+      "winner_id": "torre_cabeza",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t03",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "perino_piotto",
+      "team2_id": "santigosa_sintes",
+      "winner_id": "santigosa_sintes",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t04",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "aguirre_arroyo",
+      "team2_id": "bye",
+      "winner_id": "aguirre_arroyo",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t05",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 5,
+      "team1_id": "leal_cardona",
+      "team2_id": "bye",
+      "winner_id": "leal_cardona",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t06",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 6,
+      "team1_id": "sanchez_aguero_gil",
+      "team2_id": "jofre_castano",
+      "winner_id": "jofre_castano",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t07",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 7,
+      "team1_id": "arce_simo_lijo",
+      "team2_id": "goenaga_goni",
+      "winner_id": "goenaga_goni",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t08",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 8,
+      "team1_id": "guerrero_navarro",
+      "team2_id": "bye",
+      "winner_id": "guerrero_navarro",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t09",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 9,
+      "team1_id": "sanz_nieto_ruiz",
+      "team2_id": "bye",
+      "winner_id": "sanz_nieto_ruiz",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t10",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 10,
+      "team1_id": "segura_segura",
+      "team2_id": "jensen_hernandez",
+      "winner_id": "jensen_hernandez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t11",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 11,
+      "team1_id": "capra_ruiz",
+      "team2_id": "rubio_ruiz_gonzalez",
+      "winner_id": "capra_ruiz",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t12",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 12,
+      "team1_id": "gutierrez_c_alfonso",
+      "team2_id": "bye",
+      "winner_id": "gutierrez_c_alfonso",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t13",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 13,
+      "team1_id": "alonso_tello",
+      "team2_id": "bye",
+      "winner_id": "alonso_tello",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t14",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 14,
+      "team1_id": "melendez_melendez",
+      "team2_id": "garcia_rodrigo_gala",
+      "winner_id": "garcia_rodrigo_gala",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t15",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 15,
+      "team1_id": "montiel_abbate",
+      "team2_id": "gutierrez_a_oria",
+      "winner_id": "gutierrez_a_oria",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 3,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_t16",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "top",
+      "match_number": 16,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "bye",
+      "winner_id": "lebron_augsburger",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b01",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "bye",
+      "winner_id": "stupaczuk_yanguas",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b02",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "chris_osses",
+      "team2_id": "collado_hernandez",
+      "winner_id": "collado_hernandez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b03",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "sager_rubini",
+      "team2_id": "ayats_cepero",
+      "winner_id": "ayats_cepero",
+      "score": [
+        {
+          "set": 1,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b04",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "esbri_ruiz_granados",
+      "team2_id": "bye",
+      "winner_id": "esbri_ruiz_granados",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b05",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 5,
+      "team1_id": "bautista_campagnolo",
+      "team2_id": "bye",
+      "winner_id": "bautista_campagnolo",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b06",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 6,
+      "team1_id": "leygue_deus",
+      "team2_id": "valenzuela_martinez",
+      "winner_id": "valenzuela_martinez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 4
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b07",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 7,
+      "team1_id": "patiniotis_axelsson",
+      "team2_id": "belluati_dominguez",
+      "winner_id": "belluati_dominguez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b08",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 8,
+      "team1_id": "gonzalez_dinenno",
+      "team2_id": "bye",
+      "winner_id": "gonzalez_dinenno",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b09",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 9,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "bye",
+      "winner_id": "garrido_bergamini",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b10",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 10,
+      "team1_id": "valdes_nunez",
+      "team2_id": "del_castillo_vilarino",
+      "winner_id": "del_castillo_vilarino",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 3,
+          "t1": 1,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b11",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 11,
+      "team1_id": "guichard_blanque",
+      "team2_id": "rodriguez_de_pascual",
+      "winner_id": "rodriguez_de_pascual",
+      "score": [
+        {
+          "set": 1,
+          "t1": 0,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 0,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b12",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 12,
+      "team1_id": "barahona_garcia",
+      "team2_id": "bye",
+      "winner_id": "barahona_garcia",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b13",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 13,
+      "team1_id": "libaak_chozas",
+      "team2_id": "bye",
+      "winner_id": "libaak_chozas",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b14",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 14,
+      "team1_id": "sanchez_jimenez",
+      "team2_id": "fernandez_lancha_diestro",
+      "winner_id": "fernandez_lancha_diestro",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b15",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 15,
+      "team1_id": "di_francesco_agritelley",
+      "team2_id": "fernandez_gonzalez_jl",
+      "winner_id": "fernandez_gonzalez_jl",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r64_b16",
+      "tournament_id": "miami_p1_2026",
+      "round": "R64",
+      "draw_half": "bottom",
+      "match_number": 16,
+      "team1_id": "galan_chingotto",
+      "team2_id": "bye",
+      "winner_id": "galan_chingotto",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t01",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "torre_cabeza",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t02",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "santigosa_sintes",
+      "team2_id": "aguirre_arroyo",
+      "winner_id": "aguirre_arroyo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t03",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "leal_cardona",
+      "team2_id": "jofre_castano",
+      "winner_id": "jofre_castano",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 5
+        },
+        {
+          "set": 3,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t04",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "goenaga_goni",
+      "team2_id": "guerrero_navarro",
+      "winner_id": "guerrero_navarro",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t05",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 5,
+      "team1_id": "sanz_nieto_ruiz",
+      "team2_id": "jensen_hernandez",
+      "winner_id": "sanz_nieto_ruiz",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t06",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 6,
+      "team1_id": "capra_ruiz",
+      "team2_id": "gutierrez_c_alfonso",
+      "winner_id": "gutierrez_c_alfonso",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t07",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 7,
+      "team1_id": "alonso_tello",
+      "team2_id": "garcia_rodrigo_gala",
+      "winner_id": "garcia_rodrigo_gala",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_t08",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 8,
+      "team1_id": "gutierrez_a_oria",
+      "team2_id": "lebron_augsburger",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b01",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "collado_hernandez",
+      "winner_id": "stupaczuk_yanguas",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b02",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "ayats_cepero",
+      "team2_id": "esbri_ruiz_granados",
+      "winner_id": "esbri_ruiz_granados",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 3,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b03",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "bautista_campagnolo",
+      "team2_id": "valenzuela_martinez",
+      "winner_id": "bautista_campagnolo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 0
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b04",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "belluati_dominguez",
+      "team2_id": "gonzalez_dinenno",
+      "winner_id": "gonzalez_dinenno",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b05",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 5,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "del_castillo_vilarino",
+      "winner_id": "del_castillo_vilarino",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 1,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b06",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 6,
+      "team1_id": "rodriguez_de_pascual",
+      "team2_id": "barahona_garcia",
+      "winner_id": "barahona_garcia",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b07",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 7,
+      "team1_id": "libaak_chozas",
+      "team2_id": "fernandez_lancha_diestro",
+      "winner_id": "libaak_chozas",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r32_b08",
+      "tournament_id": "miami_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 8,
+      "team1_id": "fernandez_gonzalez_jl",
+      "team2_id": "galan_chingotto",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 1,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_t01",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "aguirre_arroyo",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_t02",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "jofre_castano",
+      "team2_id": "guerrero_navarro",
+      "winner_id": "guerrero_navarro",
+      "score": [
+        {
+          "set": 1,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_t03",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "sanz_nieto_ruiz",
+      "team2_id": "gutierrez_c_alfonso",
+      "winner_id": "sanz_nieto_ruiz",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 0
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_t04",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "garcia_rodrigo_gala",
+      "team2_id": "lebron_augsburger",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_b01",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "esbri_ruiz_granados",
+      "winner_id": "stupaczuk_yanguas",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_b02",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "gonzalez_dinenno",
+      "team2_id": "bautista_campagnolo",
+      "winner_id": "gonzalez_dinenno",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": "bautista_campagnolo"
+    },
+    {
+      "match_id": "miami26_r16_b03",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "del_castillo_vilarino",
+      "team2_id": "barahona_garcia",
+      "winner_id": "barahona_garcia",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        },
+        {
+          "set": 3,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_r16_b04",
+      "tournament_id": "miami_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "libaak_chozas",
+      "team2_id": "galan_chingotto",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_qf_t01",
+      "tournament_id": "miami_p1_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "guerrero_navarro",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_qf_t02",
+      "tournament_id": "miami_p1_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "sanz_nieto_ruiz",
+      "team2_id": "lebron_augsburger",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_qf_b01",
+      "tournament_id": "miami_p1_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "gonzalez_dinenno",
+      "winner_id": "stupaczuk_yanguas",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 8
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 1,
+          "t2": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": "gonzalez_dinenno"
+    },
+    {
+      "match_id": "miami26_qf_b02",
+      "tournament_id": "miami_p1_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "barahona_garcia",
+      "team2_id": "galan_chingotto",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 0,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_sf_t01",
+      "tournament_id": "miami_p1_2026",
+      "round": "SF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "lebron_augsburger",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_sf_b01",
+      "tournament_id": "miami_p1_2026",
+      "round": "SF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "stupaczuk_yanguas",
+      "team2_id": "galan_chingotto",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 1,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 0,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "miami26_final",
+      "tournament_id": "miami_p1_2026",
+      "round": "Final",
+      "draw_half": null,
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "galan_chingotto",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    }
+  ],
+  "tournament_results": [
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "galan_chingotto",
+      "seed": 2,
+      "round_reached": "W",
+      "points_earned_per_player": 1000,
+      "points_earned_team": 2000
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "tapia_coello",
+      "seed": 1,
+      "round_reached": "Final",
+      "points_earned_per_player": 600,
+      "points_earned_team": 1200
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "lebron_augsburger",
+      "seed": 4,
+      "round_reached": "SF",
+      "points_earned_per_player": 360,
+      "points_earned_team": 720
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "stupaczuk_yanguas",
+      "seed": 3,
+      "round_reached": "SF",
+      "points_earned_per_player": 360,
+      "points_earned_team": 720
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "guerrero_navarro",
+      "seed": 6,
+      "round_reached": "QF",
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sanz_nieto_ruiz",
+      "seed": 5,
+      "round_reached": "QF",
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "gonzalez_dinenno",
+      "seed": 7,
+      "round_reached": "QF",
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "barahona_garcia",
+      "seed": 11,
+      "round_reached": "QF",
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "aguirre_arroyo",
+      "seed": 14,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "jofre_castano",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "gutierrez_c_alfonso",
+      "seed": 15,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "garcia_rodrigo_gala",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "esbri_ruiz_granados",
+      "seed": 12,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "bautista_campagnolo",
+      "seed": 13,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "del_castillo_vilarino",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "libaak_chozas",
+      "seed": 16,
+      "round_reached": "R16",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "torre_cabeza",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "santigosa_sintes",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "leal_cardona",
+      "seed": 9,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "goenaga_goni",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "jensen_hernandez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "capra_ruiz",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "alonso_tello",
+      "seed": 10,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "gutierrez_a_oria",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "collado_hernandez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "ayats_cepero",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "valenzuela_martinez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "belluati_dominguez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "garrido_bergamini",
+      "seed": 8,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "rodriguez_de_pascual",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "fernandez_lancha_diestro",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "fernandez_gonzalez_jl",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "quilez_mourino",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "perino_piotto",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sanchez_aguero_gil",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "arce_simo_lijo",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "segura_segura",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "rubio_ruiz_gonzalez",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "melendez_melendez",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "montiel_abbate",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "chris_osses",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sager_rubini",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "leygue_deus",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "patiniotis_axelsson",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "valdes_nunez",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "guichard_blanque",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "sanchez_jimenez",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "miami_p1_2026",
+      "team_id": "di_francesco_agritelley",
+      "seed": null,
+      "round_reached": "R64",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    }
+  ]
+}
