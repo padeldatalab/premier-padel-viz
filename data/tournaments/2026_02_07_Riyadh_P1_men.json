@@ -1,0 +1,2976 @@
+{
+  "tournaments": [
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "name": "Riyadh Season P1",
+      "edition": 2026,
+      "tier": "P1",
+      "location": {
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "country_code": "KSA"
+      },
+      "dates": {
+        "start": "2026-02-07",
+        "end": "2026-02-14"
+      },
+      "prize_fund_eur": 479068,
+      "draw_size": 32,
+      "gender": "men",
+      "rounds": [
+        "R32",
+        "R16",
+        "QF",
+        "SF",
+        "Final"
+      ],
+      "points_structure": {
+        "R32": {
+          "per_player": 60,
+          "team_total": 120
+        },
+        "R16": {
+          "per_player": 120,
+          "team_total": 240
+        },
+        "QF": {
+          "per_player": 240,
+          "team_total": 480
+        },
+        "SF": {
+          "per_player": 480,
+          "team_total": 960
+        },
+        "Final": {
+          "per_player": 800,
+          "team_total": 1600
+        },
+        "W": {
+          "per_player": 1400,
+          "team_total": 2800
+        }
+      },
+      "prize_structure_eur": {
+        "R32": 0,
+        "R16": 0,
+        "QF": 0,
+        "SF": 0,
+        "Final": 0,
+        "W": 0
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "coello_tapia",
+      "players": [
+        {
+          "surname": "Coello",
+          "first_name": "Arturo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Tapia",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "chingotto_galan",
+      "players": [
+        {
+          "surname": "Chingotto",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Galan",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "yanguas_stupaczuk",
+      "players": [
+        {
+          "surname": "Yanguas",
+          "first_name": "Miguel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Stupaczuk",
+          "first_name": "Franco",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "roman_lebron",
+      "players": [
+        {
+          "surname": "Roman Augsburguer",
+          "first_name": "Leandro",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Lebron",
+          "first_name": "Juan",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "navarro_guerrero",
+      "players": [
+        {
+          "surname": "Navarro",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Guerrero",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "gonzalez_dinenno",
+      "players": [
+        {
+          "surname": "Gonzalez",
+          "first_name": "Jeronimo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Di Nenno",
+          "first_name": "Martin",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "leal_sanz",
+      "players": [
+        {
+          "surname": "Leal",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Sanz",
+          "first_name": "Jon",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "garrido_bergamini",
+      "players": [
+        {
+          "surname": "Garrido",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Bergamini",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        }
+      ]
+    },
+    {
+      "team_id": "alonso_tello",
+      "players": [
+        {
+          "surname": "Alonso",
+          "first_name": "Eduardo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Tello",
+          "first_name": "Juan",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "aguirre_arroyo",
+      "players": [
+        {
+          "surname": "Aguirre",
+          "first_name": "Leonel Daniel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Arroyo",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "garcia_barahona",
+      "players": [
+        {
+          "surname": "Garcia",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Barahona",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "gutierrez_c_alfonso",
+      "players": [
+        {
+          "surname": "Gutierrez",
+          "first_name": "Carlos Daniel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Alfonso",
+          "first_name": "Gonzalo Gabriel",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "ruiz_granados_esbri",
+      "players": [
+        {
+          "surname": "Ruiz Granados",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Esbri",
+          "first_name": "Juanlu",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "bautista_campagnolo",
+      "players": [
+        {
+          "surname": "Bautista",
+          "first_name": "Jairo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Campagnolo",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        }
+      ]
+    },
+    {
+      "team_id": "libaak_chozas",
+      "players": [
+        {
+          "surname": "Libaak",
+          "first_name": "Valentino Gabriel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Chozas",
+          "first_name": "Alex",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "gala_garcia_rodrigo",
+      "players": [
+        {
+          "surname": "Gala",
+          "first_name": "David",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Garcia Rodrigo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "guichard_blanque",
+      "players": [
+        {
+          "surname": "Guichard",
+          "first_name": "Dylan",
+          "nationality": "FRA"
+        },
+        {
+          "surname": "Blanque",
+          "first_name": "Bastien",
+          "nationality": "FRA"
+        }
+      ]
+    },
+    {
+      "team_id": "belluati_dominguez",
+      "players": [
+        {
+          "surname": "Belluati",
+          "first_name": "Juan Cruz",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Dominguez",
+          "first_name": "Facundo",
+          "nationality": "ITA"
+        }
+      ]
+    },
+    {
+      "team_id": "alshahrani_althagib",
+      "players": [
+        {
+          "surname": "Alshahrani",
+          "first_name": "Sattam",
+          "nationality": "KSA"
+        },
+        {
+          "surname": "Althagib",
+          "first_name": "Omar",
+          "nationality": "KSA"
+        }
+      ]
+    },
+    {
+      "team_id": "sanchez_blasco_jimenez",
+      "players": [
+        {
+          "surname": "Sanchez Blasco",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Jimenez Casas",
+          "first_name": "Jose",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "diestro_fernandez_lancha",
+      "players": [
+        {
+          "surname": "Diestro",
+          "first_name": "Jose Antonio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Fernandez Lancha",
+          "first_name": "Andres",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "patiniotis_torre",
+      "players": [
+        {
+          "surname": "Patiniotis",
+          "first_name": "Aris",
+          "nationality": "ITA"
+        },
+        {
+          "surname": "Torre",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "cepero_ayats",
+      "players": [
+        {
+          "surname": "Cepero",
+          "first_name": "Alvaro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Ayats",
+          "first_name": "Arnau",
+          "nationality": "UAE"
+        }
+      ]
+    },
+    {
+      "team_id": "del_castillo_vilarino",
+      "players": [
+        {
+          "surname": "Del Castillo",
+          "first_name": "Mario",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Vilarino Gestoso",
+          "first_name": "Ignacio",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "castano_jofre",
+      "players": [
+        {
+          "surname": "Castano",
+          "first_name": "Manuel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Jofre",
+          "first_name": "Inigo",
+          "nationality": "UAE"
+        }
+      ]
+    },
+    {
+      "team_id": "zapata_cabeza",
+      "players": [
+        {
+          "surname": "Zapata",
+          "first_name": "Teodoro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Cabeza Teres",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "martinez_valenzuela",
+      "players": [
+        {
+          "surname": "Martinez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Valenzuela",
+          "first_name": "Ramiro Jesus",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "fernandez_gonzalez_jl",
+      "players": [
+        {
+          "surname": "Fernandez",
+          "first_name": "Antonio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Gonzalez",
+          "first_name": "Jose Luis",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "luis_lopez_gonzalez_sm",
+      "players": [
+        {
+          "surname": "Luis Lopez",
+          "first_name": "Facundo Rodrigo",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Gonzalez San Martin",
+          "first_name": "Mariano Agustin",
+          "nationality": "PAR"
+        }
+      ]
+    },
+    {
+      "team_id": "huete_cassetta",
+      "players": [
+        {
+          "surname": "Huete Hernandez",
+          "first_name": "Mario",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Cassetta",
+          "first_name": "Marco",
+          "nationality": "ITA"
+        }
+      ]
+    },
+    {
+      "team_id": "melendez_melendez",
+      "players": [
+        {
+          "surname": "Melendez Amaya",
+          "first_name": "Alvaro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Melendez Amaya",
+          "first_name": "Pedro",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "quilez_mourino",
+      "players": [
+        {
+          "surname": "Quilez",
+          "first_name": "Marc",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Mourino",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "santigosa_sintes",
+      "players": [
+        {
+          "surname": "Santigosa Sastre",
+          "first_name": "Daniel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Sintes Villalonga",
+          "first_name": "Marc",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "hernandez_collado",
+      "players": [
+        {
+          "surname": "Hernandez Alvarez",
+          "first_name": "Pol",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Collado Losada",
+          "first_name": "Guillermo",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "deus_leygue",
+      "players": [
+        {
+          "surname": "Deus",
+          "first_name": "Nuno",
+          "nationality": "POR"
+        },
+        {
+          "surname": "Leygue",
+          "first_name": "Thomas",
+          "nationality": "FRA"
+        }
+      ]
+    },
+    {
+      "team_id": "goenaga_goni",
+      "players": [
+        {
+          "surname": "Goenaga",
+          "first_name": "Enrique",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Goni Lacabe",
+          "first_name": "Aimar",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "perino_piotto",
+      "players": [
+        {
+          "surname": "Perino",
+          "first_name": "Denis Tomas",
+          "nationality": "ITA"
+        },
+        {
+          "surname": "Piotto Albornoz",
+          "first_name": "Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "alazzam_alburayh",
+      "players": [
+        {
+          "surname": "Alazzam",
+          "first_name": "Abdulrahman",
+          "nationality": "KSA"
+        },
+        {
+          "surname": "Alburayh",
+          "first_name": "Ali",
+          "nationality": "KSA"
+        }
+      ]
+    },
+    {
+      "team_id": "hernandez_q_jensen",
+      "players": [
+        {
+          "surname": "Hernandez Quesada",
+          "first_name": "Luis",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Jensen Sirvent",
+          "first_name": "Enzo",
+          "nationality": "ITA"
+        }
+      ]
+    },
+    {
+      "team_id": "gil_sanchez_aguero",
+      "players": [
+        {
+          "surname": "Gil Morales",
+          "first_name": "Francisco Manuel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Sanchez Aguero",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "gutierrez_a_oria",
+      "players": [
+        {
+          "surname": "Gutierrez",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Oria",
+          "first_name": "Salvador",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "sager_rubini",
+      "players": [
+        {
+          "surname": "Sager",
+          "first_name": "Ignacio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Rubini",
+          "first_name": "Juan Ignacio",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "capra_ruiz",
+      "players": [
+        {
+          "surname": "Capra",
+          "first_name": "Luciano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Ruiz",
+          "first_name": "Victor",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "mendez_chiostri",
+      "players": [
+        {
+          "surname": "Mendez",
+          "first_name": "Rafael",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Chiostri",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "alrebdi_alkadi",
+      "players": [
+        {
+          "surname": "Alrebdi",
+          "first_name": "Faisal",
+          "nationality": "KSA"
+        },
+        {
+          "surname": "Alkadi",
+          "first_name": "Nawaf",
+          "nationality": "KSA"
+        }
+      ]
+    },
+    {
+      "team_id": "valdes_nunez",
+      "players": [
+        {
+          "surname": "Valdes",
+          "first_name": "Javier",
+          "nationality": "CHI"
+        },
+        {
+          "surname": "Nunez",
+          "first_name": "Renzo Gabriel",
+          "nationality": "ARG"
+        }
+      ]
+    },
+    {
+      "team_id": "rubio_ruiz_gonzalez",
+      "players": [
+        {
+          "surname": "Rubio",
+          "first_name": "Gonzalo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Ruiz Gonzalez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
+      ]
+    },
+    {
+      "team_id": "arce_lijo",
+      "players": [
+        {
+          "surname": "Arce Simo",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Lijo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        }
+      ]
+    }
+  ],
+  "tournament_entries": [
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "coello_tapia",
+      "seed": 1,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 39600,
+      "draw_half": "top",
+      "draw_position": 1
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "guichard_blanque",
+      "seed": null,
+      "entry_type": "LL",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 2
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "belluati_dominguez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 3
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alshahrani_althagib",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 4
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "sanchez_blasco_jimenez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 5
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "bautista_campagnolo",
+      "seed": 14,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 4481,
+      "draw_half": "top",
+      "draw_position": 6
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alonso_tello",
+      "seed": 9,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 6285,
+      "draw_half": "top",
+      "draw_position": 7
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "diestro_fernandez_lancha",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 8
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "patiniotis_torre",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 9
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "cepero_ayats",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 10
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "del_castillo_vilarino",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 11
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gonzalez_dinenno",
+      "seed": 6,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 9460,
+      "draw_half": "top",
+      "draw_position": 12
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "leal_sanz",
+      "seed": 7,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 8790,
+      "draw_half": "top",
+      "draw_position": 13
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "castano_jofre",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 14
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "zapata_cabeza",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 15
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "martinez_valenzuela",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 16
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "fernandez_gonzalez_jl",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 17
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gutierrez_c_alfonso",
+      "seed": 12,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 4908,
+      "draw_half": "top",
+      "draw_position": 18
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "libaak_chozas",
+      "seed": 15,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 3699,
+      "draw_half": "top",
+      "draw_position": 19
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "huete_cassetta",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 20
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "luis_lopez_gonzalez_sm",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 21
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "quilez_mourino",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 22
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "melendez_melendez",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 23
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "roman_lebron",
+      "seed": 4,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 13000,
+      "draw_half": "top",
+      "draw_position": 24
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "yanguas_stupaczuk",
+      "seed": 3,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 14227,
+      "draw_half": "bottom",
+      "draw_position": 25
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "santigosa_sintes",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 26
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "hernandez_collado",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 27
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "deus_leygue",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 28
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "goenaga_goni",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 29
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "ruiz_granados_esbri",
+      "seed": 13,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 4862,
+      "draw_half": "bottom",
+      "draw_position": 30
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gala_garcia_rodrigo",
+      "seed": 16,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 3316,
+      "draw_half": "bottom",
+      "draw_position": 31
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "perino_piotto",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 32
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alazzam_alburayh",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 33
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "hernandez_q_jensen",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 34
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gil_sanchez_aguero",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 35
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "navarro_guerrero",
+      "seed": 5,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 10525,
+      "draw_half": "bottom",
+      "draw_position": 36
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "garrido_bergamini",
+      "seed": 8,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 7078,
+      "draw_half": "bottom",
+      "draw_position": 37
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gutierrez_a_oria",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 38
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "sager_rubini",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 39
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "capra_ruiz",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 40
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "mendez_chiostri",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 41
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "aguirre_arroyo",
+      "seed": 10,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 5224,
+      "draw_half": "bottom",
+      "draw_position": 42
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "garcia_barahona",
+      "seed": 11,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 4975,
+      "draw_half": "bottom",
+      "draw_position": 43
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alrebdi_alkadi",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 44
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "valdes_nunez",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 45
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "rubio_ruiz_gonzalez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 46
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "arce_lijo",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 47
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "chingotto_galan",
+      "seed": 2,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 34640,
+      "draw_half": "bottom",
+      "draw_position": 48
+    }
+  ],
+  "matches": [
+    {
+      "match_id": "riyadh26_r32_t01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "coello_tapia",
+      "team2_id": "bye",
+      "winner_id": "coello_tapia",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "guichard_blanque",
+      "team2_id": "belluati_dominguez",
+      "winner_id": "guichard_blanque",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t03",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "alshahrani_althagib",
+      "team2_id": "sanchez_blasco_jimenez",
+      "winner_id": "sanchez_blasco_jimenez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 0,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 1,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t04",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "bautista_campagnolo",
+      "team2_id": "bye",
+      "winner_id": "bautista_campagnolo",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t05",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 5,
+      "team1_id": "alonso_tello",
+      "team2_id": "bye",
+      "winner_id": "alonso_tello",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t06",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 6,
+      "team1_id": "diestro_fernandez_lancha",
+      "team2_id": "patiniotis_torre",
+      "winner_id": "diestro_fernandez_lancha",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t07",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 7,
+      "team1_id": "cepero_ayats",
+      "team2_id": "del_castillo_vilarino",
+      "winner_id": "del_castillo_vilarino",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 11
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t08",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 8,
+      "team1_id": "gonzalez_dinenno",
+      "team2_id": "bye",
+      "winner_id": "gonzalez_dinenno",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t09",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 9,
+      "team1_id": "leal_sanz",
+      "team2_id": "bye",
+      "winner_id": "leal_sanz",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t10",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 10,
+      "team1_id": "castano_jofre",
+      "team2_id": "zapata_cabeza",
+      "winner_id": "castano_jofre",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t11",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 11,
+      "team1_id": "martinez_valenzuela",
+      "team2_id": "fernandez_gonzalez_jl",
+      "winner_id": "martinez_valenzuela",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t12",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 12,
+      "team1_id": "gutierrez_c_alfonso",
+      "team2_id": "bye",
+      "winner_id": "gutierrez_c_alfonso",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t13",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 13,
+      "team1_id": "libaak_chozas",
+      "team2_id": "bye",
+      "winner_id": "libaak_chozas",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t14",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 14,
+      "team1_id": "huete_cassetta",
+      "team2_id": "luis_lopez_gonzalez_sm",
+      "winner_id": "luis_lopez_gonzalez_sm",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 7,
+          "tiebreak": 4
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t15",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 15,
+      "team1_id": "quilez_mourino",
+      "team2_id": "melendez_melendez",
+      "winner_id": "melendez_melendez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_t16",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 16,
+      "team1_id": "roman_lebron",
+      "team2_id": "bye",
+      "winner_id": "roman_lebron",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "yanguas_stupaczuk",
+      "team2_id": "bye",
+      "winner_id": "yanguas_stupaczuk",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "santigosa_sintes",
+      "team2_id": "hernandez_collado",
+      "winner_id": "hernandez_collado",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b03",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "deus_leygue",
+      "team2_id": "goenaga_goni",
+      "winner_id": "goenaga_goni",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 3,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b04",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "ruiz_granados_esbri",
+      "team2_id": "bye",
+      "winner_id": "ruiz_granados_esbri",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b05",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 5,
+      "team1_id": "gala_garcia_rodrigo",
+      "team2_id": "bye",
+      "winner_id": "gala_garcia_rodrigo",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b06",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 6,
+      "team1_id": "perino_piotto",
+      "team2_id": "alazzam_alburayh",
+      "winner_id": "perino_piotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 0
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b07",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 7,
+      "team1_id": "hernandez_q_jensen",
+      "team2_id": "gil_sanchez_aguero",
+      "winner_id": "hernandez_q_jensen",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b08",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 8,
+      "team1_id": "navarro_guerrero",
+      "team2_id": "bye",
+      "winner_id": "navarro_guerrero",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b09",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 9,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "bye",
+      "winner_id": "garrido_bergamini",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b10",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 10,
+      "team1_id": "gutierrez_a_oria",
+      "team2_id": "sager_rubini",
+      "winner_id": "gutierrez_a_oria",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b11",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 11,
+      "team1_id": "capra_ruiz",
+      "team2_id": "mendez_chiostri",
+      "winner_id": "capra_ruiz",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 8
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b12",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 12,
+      "team1_id": "aguirre_arroyo",
+      "team2_id": "bye",
+      "winner_id": "aguirre_arroyo",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b13",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 13,
+      "team1_id": "garcia_barahona",
+      "team2_id": "bye",
+      "winner_id": "garcia_barahona",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b14",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 14,
+      "team1_id": "alrebdi_alkadi",
+      "team2_id": "valdes_nunez",
+      "winner_id": "valdes_nunez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 0,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 0,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b15",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 15,
+      "team1_id": "rubio_ruiz_gonzalez",
+      "team2_id": "arce_lijo",
+      "winner_id": "rubio_ruiz_gonzalez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 3
+        },
+        {
+          "set": 3,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r32_b16",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 16,
+      "team1_id": "chingotto_galan",
+      "team2_id": "bye",
+      "winner_id": "chingotto_galan",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "coello_tapia",
+      "team2_id": "guichard_blanque",
+      "winner_id": "coello_tapia",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "sanchez_blasco_jimenez",
+      "team2_id": "bautista_campagnolo",
+      "winner_id": "bautista_campagnolo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 7
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t03",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "alonso_tello",
+      "team2_id": "diestro_fernandez_lancha",
+      "winner_id": "alonso_tello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t04",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "gonzalez_dinenno",
+      "team2_id": "del_castillo_vilarino",
+      "winner_id": "gonzalez_dinenno",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t05",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 5,
+      "team1_id": "leal_sanz",
+      "team2_id": "castano_jofre",
+      "winner_id": "castano_jofre",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t06",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 6,
+      "team1_id": "martinez_valenzuela",
+      "team2_id": "gutierrez_c_alfonso",
+      "winner_id": "martinez_valenzuela",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t07",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 7,
+      "team1_id": "libaak_chozas",
+      "team2_id": "luis_lopez_gonzalez_sm",
+      "winner_id": "libaak_chozas",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_t08",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 8,
+      "team1_id": "roman_lebron",
+      "team2_id": "melendez_melendez",
+      "winner_id": "roman_lebron",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "yanguas_stupaczuk",
+      "team2_id": "hernandez_collado",
+      "winner_id": "yanguas_stupaczuk",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "ruiz_granados_esbri",
+      "team2_id": "goenaga_goni",
+      "winner_id": "ruiz_granados_esbri",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b03",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "gala_garcia_rodrigo",
+      "team2_id": "perino_piotto",
+      "winner_id": "perino_piotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b04",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "navarro_guerrero",
+      "team2_id": "hernandez_q_jensen",
+      "winner_id": "navarro_guerrero",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b05",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 5,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "gutierrez_a_oria",
+      "winner_id": "garrido_bergamini",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b06",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 6,
+      "team1_id": "aguirre_arroyo",
+      "team2_id": "capra_ruiz",
+      "winner_id": "aguirre_arroyo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b07",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 7,
+      "team1_id": "garcia_barahona",
+      "team2_id": "valdes_nunez",
+      "winner_id": "garcia_barahona",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_r16_b08",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 8,
+      "team1_id": "chingotto_galan",
+      "team2_id": "rubio_ruiz_gonzalez",
+      "winner_id": "chingotto_galan",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_t01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "coello_tapia",
+      "team2_id": "bautista_campagnolo",
+      "winner_id": "coello_tapia",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 3
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 8
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_t02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "alonso_tello",
+      "team2_id": "gonzalez_dinenno",
+      "winner_id": "alonso_tello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 7,
+          "t2": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_t03",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "castano_jofre",
+      "team2_id": "martinez_valenzuela",
+      "winner_id": "martinez_valenzuela",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_t04",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "libaak_chozas",
+      "team2_id": "roman_lebron",
+      "winner_id": "roman_lebron",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_b01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "yanguas_stupaczuk",
+      "team2_id": "ruiz_granados_esbri",
+      "winner_id": "yanguas_stupaczuk",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_b02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "perino_piotto",
+      "team2_id": "navarro_guerrero",
+      "winner_id": "navarro_guerrero",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_b03",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "aguirre_arroyo",
+      "winner_id": "garrido_bergamini",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_qf_b04",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "garcia_barahona",
+      "team2_id": "chingotto_galan",
+      "winner_id": "chingotto_galan",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_sf_t01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "SF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "coello_tapia",
+      "team2_id": "alonso_tello",
+      "winner_id": "coello_tapia",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": "alonso_tello"
+    },
+    {
+      "match_id": "riyadh26_sf_t02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "SF",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "martinez_valenzuela",
+      "team2_id": "roman_lebron",
+      "winner_id": "roman_lebron",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_sf_b01",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "SF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "navarro_guerrero",
+      "team2_id": "yanguas_stupaczuk",
+      "winner_id": "navarro_guerrero",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_sf_b02",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "SF",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "chingotto_galan",
+      "team2_id": "garrido_bergamini",
+      "winner_id": "chingotto_galan",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "riyadh26_final",
+      "tournament_id": "riyadh_p1_2026",
+      "round": "Final",
+      "draw_half": null,
+      "match_number": 1,
+      "team1_id": "coello_tapia",
+      "team2_id": "chingotto_galan",
+      "winner_id": "coello_tapia",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    }
+  ],
+  "tournament_results": [
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "coello_tapia",
+      "seed": 1,
+      "round_reached": "W",
+      "points_earned_per_player": 1400,
+      "points_earned_team": 2800
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "chingotto_galan",
+      "seed": 2,
+      "round_reached": "Final",
+      "points_earned_per_player": 800,
+      "points_earned_team": 1600
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "roman_lebron",
+      "seed": 4,
+      "round_reached": "Final",
+      "points_earned_per_player": 800,
+      "points_earned_team": 1600
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "navarro_guerrero",
+      "seed": 5,
+      "round_reached": "SF",
+      "points_earned_per_player": 480,
+      "points_earned_team": 960
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alonso_tello",
+      "seed": 9,
+      "round_reached": "SF",
+      "points_earned_per_player": 480,
+      "points_earned_team": 960
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "yanguas_stupaczuk",
+      "seed": 3,
+      "round_reached": "SF",
+      "points_earned_per_player": 480,
+      "points_earned_team": 960
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "garrido_bergamini",
+      "seed": 8,
+      "round_reached": "SF",
+      "points_earned_per_player": 480,
+      "points_earned_team": 960
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "bautista_campagnolo",
+      "seed": 14,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "castano_jofre",
+      "seed": null,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "libaak_chozas",
+      "seed": 15,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "ruiz_granados_esbri",
+      "seed": 13,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "perino_piotto",
+      "seed": null,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "aguirre_arroyo",
+      "seed": 10,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "garcia_barahona",
+      "seed": 11,
+      "round_reached": "QF",
+      "points_earned_per_player": 240,
+      "points_earned_team": 480
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "martinez_valenzuela",
+      "seed": null,
+      "round_reached": "SF",
+      "points_earned_per_player": 480,
+      "points_earned_team": 960
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gonzalez_dinenno",
+      "seed": 6,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "guichard_blanque",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "sanchez_blasco_jimenez",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "diestro_fernandez_lancha",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "del_castillo_vilarino",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "leal_sanz",
+      "seed": 7,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gutierrez_c_alfonso",
+      "seed": 12,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "melendez_melendez",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "hernandez_collado",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "goenaga_goni",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gala_garcia_rodrigo",
+      "seed": 16,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "hernandez_q_jensen",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gutierrez_a_oria",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "capra_ruiz",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "valdes_nunez",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "rubio_ruiz_gonzalez",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 120,
+      "points_earned_team": 240
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "belluati_dominguez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alshahrani_althagib",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "patiniotis_torre",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "cepero_ayats",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "zapata_cabeza",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "fernandez_gonzalez_jl",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "huete_cassetta",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "quilez_mourino",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "luis_lopez_gonzalez_sm",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "santigosa_sintes",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "deus_leygue",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alazzam_alburayh",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "gil_sanchez_aguero",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "sager_rubini",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "mendez_chiostri",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "alrebdi_alkadi",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    },
+    {
+      "tournament_id": "riyadh_p1_2026",
+      "team_id": "arce_lijo",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 60,
+      "points_earned_team": 120
+    }
+  ]
+}
