@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premier Padel – Tournament Draw</title>
+<style>
+  :root {
+    --bg:        #0a0f14;
+    --surface:   #111820;
+    --card:      #16202a;
+    --border:    #1f2e3d;
+    --accent:    #00b4d8;
+    --accent2:   #0077b6;
+    --gold:      #f4c430;
+    --text:      #e0eaf4;
+    --muted:     #6b8599;
+    --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Courier New', monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-main); min-height: 100vh; }
+
+  /* ── Header ── */
+  .site-header {
+    background: linear-gradient(135deg, #0d1b2a 0%, #0a0f14 60%);
+    border-bottom: 2px solid var(--accent2);
+    padding: 20px 24px 16px;
+  }
+  .header-inner { max-width: 1300px; margin: 0 auto; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .tier-pill {
+    color: #fff; font-size: 11px; font-weight: 700;
+    letter-spacing: 2px; text-transform: uppercase; padding: 4px 10px; border-radius: 4px;
+  }
+  .tier-pill.major  { background: #7b2d8b; }
+  .tier-pill.p1     { background: #0077b6; }
+  .tier-pill.p2     { background: #1a6b3a; }
+  .header-titles { flex: 1; }
+  #tourney-title { font-size: 1.55rem; font-weight: 700; color: #fff; letter-spacing: -0.5px; }
+  #tourney-meta  { font-size: 0.82rem; color: var(--muted); margin-top: 3px; }
+  .champion-badge {
+    background: var(--card); border: 1px solid var(--gold); border-radius: 8px;
+    padding: 8px 14px; text-align: right;
+  }
+  .champion-badge .lbl   { font-size: 9px; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; }
+  .champion-badge .name  { font-size: 0.9rem; font-weight: 700; color: #fff; margin-top: 2px; }
+  .champion-badge .score { font-size: 0.75rem; color: var(--muted); font-family: var(--font-mono); }
+
+  /* ── Nav ── */
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); }
+  .nav-inner { max-width: 1300px; margin: 0 auto; display: flex; }
+  .nav-tab {
+    padding: 12px 22px; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.5px;
+    color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent;
+    transition: all 0.15s; user-select: none; text-transform: uppercase;
+  }
+  .nav-tab:hover { color: var(--text); }
+  .nav-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* ── Loading / Error ── */
+  #loading {
+    padding: 80px; text-align: center; color: var(--muted); font-size: 0.9rem;
+  }
+  #error-msg {
+    display: none; margin: 40px auto; max-width: 600px; padding: 20px 24px;
+    background: #2a1a1a; border: 1px solid #5a2d2d; border-left: 4px solid #e57373;
+    border-radius: 6px; color: #ef9a9a; font-size: 0.85rem;
+  }
+
+  /* ── Content ── */
+  main { max-width: 1300px; margin: 0 auto; padding: 24px 16px 60px; display: none; }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* ── Summary ── */
+  .s-notice {
+    border-radius: 6px; padding: 10px 14px; margin-bottom: 20px;
+    font-size: 0.82rem; border-left-width: 4px; border-left-style: solid;
+  }
+  .s-notice.retirement { background: #2a1a1a; border-color: #e57373; color: #ef9a9a; border: 1px solid #5a2d2d; border-left: 4px solid #e57373; }
+  .s-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-bottom: 24px; }
+  .s-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .s-card h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); margin-bottom: 10px; }
+  .round-row { display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid var(--border); }
+  .round-row:last-child { border-bottom: none; }
+  .round-team  { font-size: 0.82rem; font-weight: 600; flex: 1; }
+  .round-score { font-size: 0.72rem; font-family: var(--font-mono); color: var(--muted); text-align: right; }
+  .round-score .ret { color: #e57373; font-weight: 700; }
+
+  /* ── Performance ── */
+  .perf-wrap { overflow-x: auto; }
+  .perf-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+  .perf-table th {
+    background: var(--surface); border: 1px solid var(--border); padding: 7px 10px;
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); white-space: nowrap;
+  }
+  .perf-table td { border: 1px solid var(--border); padding: 7px 10px; vertical-align: middle; }
+  .perf-table tr:hover td { background: #1a2535; }
+  .seed-badge {
+    display: inline-block; background: var(--accent2); color: #fff; font-size: 10px;
+    font-weight: 700; padding: 1px 6px; border-radius: 3px; margin-right: 5px;
+  }
+  .perf-bar-wrap { position: relative; height: 22px; }
+  .perf-bar-bg   { position: absolute; inset: 0; display: flex; }
+  .perf-seg      { height: 100%; }
+  .perf-bar-label { position: relative; z-index: 1; font-size: 10px; font-weight: 700; padding: 3px 6px; white-space: nowrap; }
+  .over  { color: #a5d6a7; }
+  .under { color: #ef9a9a; }
+  .meet  { color: #90caf9; }
+  .points-cell { font-family: var(--font-mono); color: var(--accent); font-size: 0.78rem; }
+
+  /* ── Draw ── */
+  .bracket-outer { overflow-x: auto; padding-bottom: 12px; }
+  .bracket { display: flex; align-items: stretch; }
+  .bracket-col { display: flex; flex-direction: column; min-width: 190px; }
+  .bracket-col.final-col { min-width: 210px; }
+  .col-header {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 5px 5px 0 0;
+    padding: 7px 10px; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 1px;
+    color: var(--accent); font-weight: 700; text-align: center; margin-bottom: 4px;
+  }
+  .col-header .pts { color: var(--muted); font-size: 0.62rem; font-weight: 400; margin-top: 1px; }
+  .matches-col { display: flex; flex-direction: column; flex: 1; }
+  .match-cell {
+    background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+    margin: 3px; overflow: hidden; flex: 1; display: flex; flex-direction: column; justify-content: center;
+  }
+  .match-cell.bye-cell { opacity: 0.35; }
+  .team-row {
+    display: flex; align-items: center; padding: 5px 8px; gap: 5px;
+    border-bottom: 1px solid var(--border); min-height: 30px;
+  }
+  .team-row:last-child { border-bottom: none; }
+  .team-row.winner { background: rgba(0,180,216,0.08); }
+  .seed-num  { font-size: 9px; color: var(--gold); min-width: 16px; font-weight: 700; }
+  .team-name { font-size: 0.72rem; flex: 1; line-height: 1.2; }
+  .team-name .surname { font-weight: 700; }
+  .team-name .nation  { font-size: 9px; color: var(--muted); margin-left: 3px; }
+  .match-score { font-size: 9px; font-family: var(--font-mono); color: var(--muted); white-space: nowrap; text-align: right; }
+  .ret-tag  { font-size: 8px; color: #e57373; font-weight: 700; margin-left: 3px; }
+  .bye-tag  { font-size: 9px; color: var(--muted); font-style: italic; }
+  .score-footer {
+    font-size: 9px; font-family: var(--font-mono); color: var(--muted);
+    padding: 3px 8px; border-top: 1px solid var(--border); text-align: right;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="tier-pill" id="tier-pill">–</span>
+    <div class="header-titles">
+      <div id="tourney-title">Loading…</div>
+      <div id="tourney-meta"></div>
+    </div>
+    <div class="champion-badge" id="champion-badge" style="display:none">
+      <div class="lbl">Champion</div>
+      <div class="name" id="champ-name"></div>
+      <div class="score" id="champ-score"></div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-tab active" data-tab="summary">Summary</div>
+    <div class="nav-tab" data-tab="performance">Performance</div>
+    <div class="nav-tab" data-tab="draw">Draw</div>
+  </div>
+</nav>
+
+<div id="loading">Loading tournament data…</div>
+<div id="error-msg"></div>
+
+<main id="main-content">
+  <section id="tab-summary" class="tab-panel active">
+    <div id="retirement-notice"></div>
+    <div id="summary-grid" class="s-grid"></div>
+  </section>
+  <section id="tab-performance" class="tab-panel">
+    <div class="perf-wrap">
+      <table class="perf-table">
+        <thead>
+          <tr>
+            <th>Team</th><th>Seed</th><th>Round reached</th>
+            <th>Expected</th><th>Performance</th><th>Points</th>
+          </tr>
+        </thead>
+        <tbody id="perf-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+  <section id="tab-draw" class="tab-panel">
+    <div class="bracket-outer">
+      <div class="bracket" id="bracket"></div>
+    </div>
+  </section>
+</main>
+
+<script>
+// ─── JSON path: derive from ?t= query param, fallback to page filename ────────
+function getJsonPath() {
+  const params = new URLSearchParams(window.location.search);
+  const t = params.get('t');
+  if (t) {
+    const base = window.location.href.split('/tournaments/')[0];
+    return base + '/data/tournaments/' + t + '.json';
+  }
+  // Fallback: derive from HTML filename (strip .html → .json, move to data/tournaments/)
+  const base = window.location.href.replace(/\/tournaments\/[^/?]+.*$/, '');
+  const file = window.location.pathname.split('/').pop().replace('.html', '.json');
+  return base + '/data/tournaments/' + file;
+}
+
+// ─── Nav tabs ─────────────────────────────────────────────────────────────────
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+const ROUND_ORDER = ['R64','R32','R16','QF','SF','Final','W'];
+function roundIdx(r) { return ROUND_ORDER.indexOf(r); }
+
+function teamLabel(teamId, teamsMap) {
+  if (teamId === 'bye') return 'BYE';
+  const t = teamsMap[teamId];
+  return t ? t.players.map(p => p.surname).join(' / ') : teamId;
+}
+
+function fmtDate(iso) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+function fmtPrize(eur) {
+  return '€' + eur.toLocaleString('en-GB');
+}
+
+// ─── expIdx: expected round by seed and tier ──────────────────────────────────
+function makeExpIdx(tier, drawSize) {
+  // Major 64-draw, 16 seeds
+  if (tier === 'Major') return seed => {
+    if (!seed)    return 3;  // unseeded → R16
+    if (seed <= 2) return 5; // Final
+    if (seed <= 4) return 4; // SF
+    if (seed <= 8) return 3; // QF
+    if (seed <= 12) return 2;// R16
+    return 1;                // R32
+  };
+  // P1 / P2 32-draw, 16 seeds
+  return seed => {
+    if (!seed)    return 2;  // unseeded → R16
+    if (seed <= 2) return 4; // Final
+    if (seed <= 4) return 3; // SF
+    if (seed <= 8) return 2; // QF
+    if (seed <= 12) return 1;// R16
+    return 0;                // R32
+  };
+}
+
+// ─── Transform JSON → internal model ─────────────────────────────────────────
+function transformJSON(d) {
+  const tournament = d.tournaments[0];
+  const teamsMap = {};
+  d.teams.forEach(t => teamsMap[t.team_id] = t);
+  const entriesMap = {};
+  d.tournament_entries.forEach(e => entriesMap[e.team_id] = e);
+  const resultsMap = {};
+  d.tournament_results.forEach(r => {
+    const existing = resultsMap[r.team_id];
+    if (!existing || roundIdx(r.round_reached) > roundIdx(existing.round_reached))
+      resultsMap[r.team_id] = r;
+  });
+  return { tournament, teamsMap, entriesMap, resultsMap, matches: d.matches };
+}
+
+// ─── Populate header from JSON ────────────────────────────────────────────────
+function populateHeader(data) {
+  const t = data.tournament;
+
+  // Title
+  document.title = t.name + ' ' + t.edition + ' – ' + (t.gender === 'men' ? "Men's" : "Women's") + ' Draw';
+  document.getElementById('tourney-title').textContent = t.name;
+
+  // Meta line
+  const start = fmtDate(t.dates.start);
+  const end   = fmtDate(t.dates.end);
+  const gender = t.gender === 'men' ? "Men's" : "Women's";
+  document.getElementById('tourney-meta').textContent =
+    t.location.city + ', ' + t.location.country + '  ·  ' + start + ' – ' + end + '  ·  ' + gender + '  ·  ' + fmtPrize(t.prize_fund_eur);
+
+  // Tier pill
+  const pill = document.getElementById('tier-pill');
+  pill.textContent = t.tier;
+  pill.className = 'tier-pill ' + t.tier.toLowerCase();
+
+  // Champion badge — find winner from results
+  const winner = Object.values(data.resultsMap).find(r => r.round_reached === 'W');
+  if (winner) {
+    const finalMatch = data.matches.find(m => m.round === 'Final');
+    const champName  = teamLabel(winner.team_id, data.teamsMap);
+    const champScore = finalMatch?.score
+      ? finalMatch.score.map(s => {
+          const isT1 = finalMatch.team1_id === winner.team_id;
+          return (isT1 ? s.t1 : s.t2) + '–' + (isT1 ? s.t2 : s.t1);
+        }).join('  ')
+      : '';
+    document.getElementById('champ-name').textContent  = champName;
+    document.getElementById('champ-score').textContent = champScore;
+    document.getElementById('champion-badge').style.display = '';
+  }
+}
+
+// ─── Retirement notice ────────────────────────────────────────────────────────
+function populateRetirementNotice(data) {
+  const retMatches = data.matches.filter(m => m.retired_team_id);
+  const container  = document.getElementById('retirement-notice');
+  retMatches.forEach(m => {
+    const retired  = teamLabel(m.retired_team_id, data.teamsMap);
+    const winner   = teamLabel(m.winner_id, data.teamsMap);
+    const score    = m.score ? m.score.map(s => s.t1 + '–' + s.t2).join(', ') : '';
+    const div = document.createElement('div');
+    div.className = 's-notice retirement';
+    div.innerHTML = '<strong>Retirement:</strong> ' + retired + ' retired in the ' + m.round +
+      ' vs ' + winner + (score ? ' while trailing ' + score : '') + '.';
+    container.appendChild(div);
+  });
+}
+
+// ─── Summary tab ──────────────────────────────────────────────────────────────
+function buildSummary(data) {
+  const ROUND_NAMES = { Final:'Final', SF:'Semifinals', QF:'Quarterfinals', R16:'Round of 16', R32:'Round of 32', R64:'Round of 64' };
+  const roundsToShow = [...data.tournament.rounds].reverse().filter(r => r !== 'W');
+  const grid = document.getElementById('summary-grid');
+
+  roundsToShow.forEach(round => {
+    const ms = data.matches.filter(m => m.round === round && m.team2_id !== 'bye');
+    if (!ms.length) return;
+    const card = document.createElement('div');
+    card.className = 's-card';
+    card.innerHTML = '<h3>' + (ROUND_NAMES[round] || round) + '</h3>';
+    ms.forEach(m => {
+      const isT1Winner = m.team1_id === m.winner_id;
+      const winnerName = teamLabel(m.winner_id, data.teamsMap);
+      const loserId    = isT1Winner ? m.team2_id : m.team1_id;
+      const loserName  = teamLabel(loserId, data.teamsMap);
+      const sc = m.score ? m.score.map(s => {
+        const w = isT1Winner ? s.t1 : s.t2;
+        const l = isT1Winner ? s.t2 : s.t1;
+        return w + '–' + l + (s.tiebreak !== undefined ? '(' + s.tiebreak + ')' : '');
+      }).join(' ') : '';
+      const retTag = m.retired_team_id === loserId ? ' <span class="ret">RET</span>' : '';
+      const row = document.createElement('div');
+      row.className = 'round-row';
+      row.innerHTML =
+        '<div class="round-team">' + winnerName + '</div>' +
+        '<div class="round-score">def. ' + loserName + ' ' + sc + retTag + '</div>';
+      card.appendChild(row);
+    });
+    grid.appendChild(card);
+  });
+}
+
+// ─── Performance tab ──────────────────────────────────────────────────────────
+function buildChart(data) {
+  const expIdx = makeExpIdx(data.tournament.tier, data.tournament.draw_size);
+  const tbody  = document.getElementById('perf-tbody');
+  const roundLabels = data.tournament.rounds.filter(r => r !== 'W');
+
+  const seeded = Object.values(data.resultsMap)
+    .filter(r => data.entriesMap[r.team_id]?.seed)
+    .sort((a, b) => (data.entriesMap[a.team_id]?.seed || 99) - (data.entriesMap[b.team_id]?.seed || 99));
+
+  seeded.forEach(r => {
+    const seed     = data.entriesMap[r.team_id]?.seed;
+    const name     = teamLabel(r.team_id, data.teamsMap);
+    const actualRaw = r.round_reached === 'W' ? roundLabels.length : roundLabels.indexOf(r.round_reached);
+    const actual   = actualRaw < 0 ? 0 : actualRaw;
+    const expected = expIdx(seed);
+    const diff     = actual - expected;
+    const perfLabel = diff > 0 ? '▲ Overperformed' : diff < 0 ? '▼ Underperformed' : '= Met expectation';
+    const perfClass = diff > 0 ? 'over' : diff < 0 ? 'under' : 'meet';
+
+    let barSegs = '';
+    for (let i = 0; i < roundLabels.length; i++) {
+      const filled = i <= actual - 1;
+      const bg = filled
+        ? (diff > 0 && i >= expected ? 'rgba(13,158,110,0.4)' : 'rgba(0,119,182,0.4)')
+        : '#1a2535';
+      barSegs += '<div class="perf-seg" style="flex:1;background:' + bg + ';margin-right:2px;border-radius:2px"></div>';
+    }
+
+    const tr = document.createElement('tr');
+    tr.innerHTML =
+      '<td>' + name + '</td>' +
+      '<td><span class="seed-badge">' + seed + '</span></td>' +
+      '<td>' + (r.round_reached === 'W' ? '🏆 Winner' : r.round_reached) + '</td>' +
+      '<td>' + (roundLabels[expected] || 'Final') + '</td>' +
+      '<td><div class="perf-bar-wrap"><div class="perf-bar-bg">' + barSegs + '</div>' +
+           '<div class="perf-bar-label ' + perfClass + '">' + perfLabel + '</div></div></td>' +
+      '<td class="points-cell">' + r.points_earned_team.toLocaleString() + '</td>';
+    tbody.appendChild(tr);
+  });
+}
+
+// ─── Draw tab ─────────────────────────────────────────────────────────────────
+function buildBracket(data) {
+  const container   = document.getElementById('bracket');
+  const roundLabels = data.tournament.rounds.filter(r => r !== 'W');
+  const NAMES = { R64:'Round of 64', R32:'Round of 32', R16:'Round of 16', QF:'Quarterfinals', SF:'Semifinals', Final:'Final' };
+  const pts = data.tournament.points_structure;
+
+  roundLabels.forEach(round => {
+    const col = document.createElement('div');
+    col.className = 'bracket-col' + (round === 'Final' ? ' final-col' : '');
+
+    const hdr = document.createElement('div');
+    hdr.className = 'col-header';
+    hdr.innerHTML = (NAMES[round] || round) +
+      '<div class="pts">' + (pts[round] ? pts[round].per_player + ' pts / player' : '') + '</div>';
+    col.appendChild(hdr);
+
+    const matchesCol = document.createElement('div');
+    matchesCol.className = 'matches-col';
+
+    const roundMatches = data.matches
+      .filter(m => m.round === round)
+      .sort((a, b) => {
+        const ho = { top: 0, bottom: 1, null: 2 };
+        const ha = ho[a.draw_half] ?? 2, hb = ho[b.draw_half] ?? 2;
+        return ha !== hb ? ha - hb : (a.match_number || 0) - (b.match_number || 0);
+      });
+
+    roundMatches.forEach(m => {
+      const cell = document.createElement('div');
+      cell.className = 'match-cell' + (m.walkover ? ' bye-cell' : '');
+
+      function teamRow(teamId, isWinner) {
+        if (teamId === 'bye') {
+          return '<div class="team-row"><span class="team-name bye-tag">— BYE —</span></div>';
+        }
+        const team  = data.teamsMap[teamId];
+        const seed  = data.entriesMap[teamId]?.seed;
+        const names = team
+          ? team.players.map(p => '<span class="surname">' + p.surname + '</span><span class="nation"> ' + p.nationality + '</span>').join('<br>')
+          : teamId;
+        const retTag = m.retired_team_id === teamId ? '<span class="ret-tag">RET</span>' : '';
+        return '<div class="team-row' + (isWinner ? ' winner' : '') + '">' +
+          '<span class="seed-num">' + (seed || '') + '</span>' +
+          '<span class="team-name">' + names + '</span>' +
+          retTag + '</div>';
+      }
+
+      cell.innerHTML = teamRow(m.team1_id, m.team1_id === m.winner_id) +
+                       teamRow(m.team2_id, m.team2_id === m.winner_id);
+
+      if (m.score) {
+        const isT1 = m.team1_id === m.winner_id;
+        const scoreStr = m.score.map(s => {
+          const w = isT1 ? s.t1 : s.t2, l = isT1 ? s.t2 : s.t1;
+          return w + '–' + l + (s.tiebreak !== undefined ? '(' + s.tiebreak + ')' : '');
+        }).join(' ') + (m.retired_team_id ? ' RET' : '');
+        const footer = document.createElement('div');
+        footer.className = 'score-footer';
+        footer.textContent = scoreStr;
+        cell.appendChild(footer);
+      }
+      matchesCol.appendChild(cell);
+    });
+
+    col.appendChild(matchesCol);
+    container.appendChild(col);
+  });
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const path = getJsonPath();
+    const resp = await fetch(path);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status + ' — ' + path);
+    const raw  = await resp.json();
+    const data = transformJSON(raw);
+
+    populateHeader(data);
+    populateRetirementNotice(data);
+    buildSummary(data);
+    buildChart(data);
+    buildBracket(data);
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('main-content').style.display = 'block';
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    const err = document.getElementById('error-msg');
+    err.style.display = 'block';
+    err.innerHTML = '<strong>Could not load tournament data.</strong><br>' + e.message +
+      '<br><br>Expected JSON at: <code>' + getJsonPath() + '</code>';
+  }
+}
+init();
+</script>
+</body>
+</html>
