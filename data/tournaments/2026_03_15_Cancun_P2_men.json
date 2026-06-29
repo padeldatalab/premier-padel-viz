@@ -2,503 +2,1702 @@
   "tournaments": [
     {
       "tournament_id": "cancun_p2_2026",
-      "name": "Cancún P2",
+      "name": "Canc\u00fan P2",
       "edition": 2026,
       "tier": "P2",
-      "location": { "city": "Cancún", "country": "Mexico", "country_code": "MEX" },
-      "dates": { "start": "2026-03-15", "end": "2026-03-22" },
+      "location": {
+        "city": "Canc\u00fan",
+        "country": "Mexico",
+        "country_code": "MEX"
+      },
+      "dates": {
+        "start": "2026-03-15",
+        "end": "2026-03-22"
+      },
       "prize_fund_eur": 264534,
       "draw_size": 32,
       "gender": "men",
-      "rounds": ["R32", "R16", "QF", "SF", "Final"],
+      "rounds": [
+        "R32",
+        "R16",
+        "QF",
+        "SF",
+        "Final"
+      ],
       "points_structure": {
-        "R32":   { "per_player": 30,  "team_total": 60   },
-        "R16":   { "per_player": 60,  "team_total": 120  },
-        "QF":    { "per_player": 120, "team_total": 240  },
-        "SF":    { "per_player": 240, "team_total": 480  },
-        "Final": { "per_player": 400, "team_total": 800  },
-        "W":     { "per_player": 700, "team_total": 1400 }
+        "R32": {
+          "per_player": 22,
+          "team_total": 44
+        },
+        "R16": {
+          "per_player": 45,
+          "team_total": 90
+        },
+        "QF": {
+          "per_player": 90,
+          "team_total": 180
+        },
+        "SF": {
+          "per_player": 180,
+          "team_total": 360
+        },
+        "Final": {
+          "per_player": 360,
+          "team_total": 720
+        },
+        "W": {
+          "per_player": 600,
+          "team_total": 1200
+        }
       },
       "prize_structure_eur": {
-        "R32": 0, "R16": 0, "QF": 0, "SF": 0, "Final": 0, "W": 0
+        "R32": 0,
+        "R16": 0,
+        "QF": 0,
+        "SF": 0,
+        "Final": 0,
+        "W": 0
       }
     }
   ],
-
   "teams": [
     {
       "team_id": "tapia_coello",
       "players": [
-        { "surname": "Tapia",  "first_name": "Agustin", "nationality": "ARG" },
-        { "surname": "Coello", "first_name": "Arturo",  "nationality": "ESP" }
+        {
+          "surname": "Tapia",
+          "first_name": "Agustin",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Coello",
+          "first_name": "Arturo",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "galan_chingotto",
       "players": [
-        { "surname": "Galan",     "first_name": "Alejandro", "nationality": "ESP" },
-        { "surname": "Chingotto", "first_name": "Federico",  "nationality": "ARG" }
+        {
+          "surname": "Galan",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Chingotto",
+          "first_name": "Federico",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "yanguas_stupaczuk",
       "players": [
-        { "surname": "Yanguas",   "first_name": "Miguel", "nationality": "ESP" },
-        { "surname": "Stupaczuk", "first_name": "Franco", "nationality": "ARG" }
+        {
+          "surname": "Yanguas",
+          "first_name": "Miguel",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Stupaczuk",
+          "first_name": "Franco",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "lebron_augsburger",
       "players": [
-        { "surname": "Lebron",     "first_name": "Juan",         "nationality": "ESP" },
-        { "surname": "Augsburger", "first_name": "Leandro Roman","nationality": "ARG" }
+        {
+          "surname": "Lebron",
+          "first_name": "Juan",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Augsburger",
+          "first_name": "Leandro Roman",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "sanz_nieto_ruiz",
       "players": [
-        { "surname": "Sanz",       "first_name": "Jon",   "nationality": "ESP" },
-        { "surname": "Nieto Ruiz", "first_name": "Jorge", "nationality": "ESP" }
+        {
+          "surname": "Sanz",
+          "first_name": "Jon",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Nieto Ruiz",
+          "first_name": "Jorge",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "guerrero_navarro",
       "players": [
-        { "surname": "Guerrero", "first_name": "Francisco", "nationality": "ESP" },
-        { "surname": "Navarro",  "first_name": "Francisco", "nationality": "ESP" }
+        {
+          "surname": "Guerrero",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Navarro",
+          "first_name": "Francisco",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "gonzalez_dinenno",
       "players": [
-        { "surname": "Gonzalez", "first_name": "Jeronimo", "nationality": "ESP" },
-        { "surname": "Di Nenno", "first_name": "Martin",   "nationality": "ARG" }
+        {
+          "surname": "Gonzalez",
+          "first_name": "Jeronimo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Di Nenno",
+          "first_name": "Martin",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "garrido_bergamini",
       "players": [
-        { "surname": "Garrido",   "first_name": "Javier", "nationality": "ESP" },
-        { "surname": "Bergamini", "first_name": "Lucas",  "nationality": "BRA" }
+        {
+          "surname": "Garrido",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Bergamini",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        }
       ]
     },
     {
       "team_id": "diestro_fernandez",
       "players": [
-        { "surname": "Diestro",          "first_name": "Jose Antonio", "nationality": "ESP" },
-        { "surname": "Fernandez Lancha", "first_name": "Andres",       "nationality": "ESP" }
+        {
+          "surname": "Diestro",
+          "first_name": "Jose Antonio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Fernandez Lancha",
+          "first_name": "Andres",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "lijo_arce_simo",
       "players": [
-        { "surname": "Lijo",      "first_name": "Pablo",       "nationality": "ESP" },
-        { "surname": "Arce Simo", "first_name": "Maximiliano", "nationality": "ARG" }
+        {
+          "surname": "Lijo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Arce Simo",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "leal_cepero",
       "players": [
-        { "surname": "Leal",   "first_name": "Javier", "nationality": "ESP" },
-        { "surname": "Cepero", "first_name": "Alvaro", "nationality": "ESP" }
+        {
+          "surname": "Leal",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Cepero",
+          "first_name": "Alvaro",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "goenaga_goni",
       "players": [
-        { "surname": "Goenaga",     "first_name": "Enrique", "nationality": "ESP" },
-        { "surname": "Goni Lacabe", "first_name": "Aimar",   "nationality": "ESP" }
+        {
+          "surname": "Goenaga",
+          "first_name": "Enrique",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Goni Lacabe",
+          "first_name": "Aimar",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "campagnolo_bautista",
       "players": [
-        { "surname": "Campagnolo", "first_name": "Lucas", "nationality": "BRA" },
-        { "surname": "Bautista",   "first_name": "Jairo", "nationality": "ESP" }
+        {
+          "surname": "Campagnolo",
+          "first_name": "Lucas",
+          "nationality": "BRA"
+        },
+        {
+          "surname": "Bautista",
+          "first_name": "Jairo",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "capra_ruiz",
       "players": [
-        { "surname": "Capra", "first_name": "Luciano", "nationality": "ARG" },
-        { "surname": "Ruiz",  "first_name": "Victor",  "nationality": "ESP" }
+        {
+          "surname": "Capra",
+          "first_name": "Luciano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Ruiz",
+          "first_name": "Victor",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "amora_acevedo",
       "players": [
-        { "surname": "Amora Hernandez",       "first_name": "Pablo Francisco", "nationality": "MEX" },
-        { "surname": "Acevedo Iturribarria",  "first_name": "Pablo",           "nationality": "MEX" }
+        {
+          "surname": "Amora Hernandez",
+          "first_name": "Pablo Francisco",
+          "nationality": "MEX"
+        },
+        {
+          "surname": "Acevedo Iturribarria",
+          "first_name": "Pablo",
+          "nationality": "MEX"
+        }
       ]
     },
     {
       "team_id": "aguirre_arroyo",
       "players": [
-        { "surname": "Aguirre", "first_name": "Leonel Daniel", "nationality": "ARG" },
-        { "surname": "Arroyo",  "first_name": "Alejandro",     "nationality": "ESP" }
+        {
+          "surname": "Aguirre",
+          "first_name": "Leonel Daniel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Arroyo",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "jofre_castano",
       "players": [
-        { "surname": "Jofre",   "first_name": "Inigo",  "nationality": "UAE" },
-        { "surname": "Castano", "first_name": "Manuel", "nationality": "ESP" }
+        {
+          "surname": "Jofre",
+          "first_name": "Inigo",
+          "nationality": "UAE"
+        },
+        {
+          "surname": "Castano",
+          "first_name": "Manuel",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "alonso_tello",
       "players": [
-        { "surname": "Alonso", "first_name": "Eduardo", "nationality": "ESP" },
-        { "surname": "Tello",  "first_name": "Juan",    "nationality": "ARG" }
+        {
+          "surname": "Alonso",
+          "first_name": "Eduardo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Tello",
+          "first_name": "Juan",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "ruiz_gonzalez_rubio",
       "players": [
-        { "surname": "Ruiz Gonzalez", "first_name": "Javier",  "nationality": "ESP" },
-        { "surname": "Rubio",         "first_name": "Gonzalo", "nationality": "ESP" }
+        {
+          "surname": "Ruiz Gonzalez",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Rubio",
+          "first_name": "Gonzalo",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "arredondo_padilla",
       "players": [
-        { "surname": "Arredondo Garcia", "first_name": "Diego",      "nationality": "MEX" },
-        { "surname": "Padilla",          "first_name": "Jose Pablo", "nationality": "MEX" }
+        {
+          "surname": "Arredondo Garcia",
+          "first_name": "Diego",
+          "nationality": "MEX"
+        },
+        {
+          "surname": "Padilla",
+          "first_name": "Jose Pablo",
+          "nationality": "MEX"
+        }
       ]
     },
     {
       "team_id": "ruiz_granados_esbri",
       "players": [
-        { "surname": "Ruiz Granados", "first_name": "Alejandro", "nationality": "ESP" },
-        { "surname": "Esbri",         "first_name": "Juanlu",    "nationality": "ESP" }
+        {
+          "surname": "Ruiz Granados",
+          "first_name": "Alejandro",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Esbri",
+          "first_name": "Juanlu",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "libaak_chozas",
       "players": [
-        { "surname": "Libaak", "first_name": "Valentino Gabriel", "nationality": "ARG" },
-        { "surname": "Chozas", "first_name": "Alex",              "nationality": "ARG" }
+        {
+          "surname": "Libaak",
+          "first_name": "Valentino Gabriel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Chozas",
+          "first_name": "Alex",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "collado_hernandez",
       "players": [
-        { "surname": "Collado Losada",    "first_name": "Guillermo", "nationality": "ESP" },
-        { "surname": "Hernandez Alvarez", "first_name": "Pol",       "nationality": "ESP" }
+        {
+          "surname": "Collado Losada",
+          "first_name": "Guillermo",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Hernandez Alvarez",
+          "first_name": "Pol",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "sager_rubini",
       "players": [
-        { "surname": "Sager",  "first_name": "Ignacio",      "nationality": "ESP" },
-        { "surname": "Rubini", "first_name": "Juan Ignacio", "nationality": "ARG" }
+        {
+          "surname": "Sager",
+          "first_name": "Ignacio",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Rubini",
+          "first_name": "Juan Ignacio",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "sanchez_jimenez",
       "players": [
-        { "surname": "Sanchez Blasco", "first_name": "Maximiliano", "nationality": "ARG" },
-        { "surname": "Jimenez Casas",  "first_name": "Jose",        "nationality": "ESP" }
+        {
+          "surname": "Sanchez Blasco",
+          "first_name": "Maximiliano",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Jimenez Casas",
+          "first_name": "Jose",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "gutierrez_alfonso",
       "players": [
-        { "surname": "Gutierrez", "first_name": "Carlos Daniel",   "nationality": "ARG" },
-        { "surname": "Alfonso",   "first_name": "Gonzalo Gabriel", "nationality": "ARG" }
+        {
+          "surname": "Gutierrez",
+          "first_name": "Carlos Daniel",
+          "nationality": "ARG"
+        },
+        {
+          "surname": "Alfonso",
+          "first_name": "Gonzalo Gabriel",
+          "nationality": "ARG"
+        }
       ]
     },
     {
       "team_id": "gala_garcia_rodrigo",
       "players": [
-        { "surname": "Gala",           "first_name": "David", "nationality": "ESP" },
-        { "surname": "Garcia Rodrigo", "first_name": "Pablo", "nationality": "ESP" }
+        {
+          "surname": "Gala",
+          "first_name": "David",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Garcia Rodrigo",
+          "first_name": "Pablo",
+          "nationality": "ESP"
+        }
       ]
     },
     {
       "team_id": "garcia_barahona",
       "players": [
-        { "surname": "Garcia",   "first_name": "Javier", "nationality": "ESP" },
-        { "surname": "Barahona", "first_name": "Javier", "nationality": "ESP" }
+        {
+          "surname": "Garcia",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        },
+        {
+          "surname": "Barahona",
+          "first_name": "Javier",
+          "nationality": "ESP"
+        }
       ]
     }
   ],
-
   "tournament_entries": [
-    { "tournament_id": "cancun_p2_2026", "team_id": "tapia_coello",         "seed": 1,    "entry_type": "S",  "fip_points_pre_tournament": 40320, "draw_half": "top",    "draw_position": 1  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "diestro_fernandez",    "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 3  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "lijo_arce_simo",       "seed": null, "entry_type": "Q",  "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 4  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "leal_cepero",          "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 5  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "goenaga_goni",         "seed": null, "entry_type": "Q",  "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 6  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "campagnolo_bautista",  "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 7  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "sanz_nieto_ruiz",      "seed": 5,    "entry_type": "S",  "fip_points_pre_tournament": 11357, "draw_half": "top",    "draw_position": 8  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "guerrero_navarro",     "seed": 6,    "entry_type": "S",  "fip_points_pre_tournament": 11320, "draw_half": "top",    "draw_position": 9  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "capra_ruiz",           "seed": null, "entry_type": "Q",  "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 10 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "amora_acevedo",        "seed": null, "entry_type": "WC", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 11 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "aguirre_arroyo",       "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 12 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "jofre_castano",        "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 13 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "alonso_tello",         "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "top",    "draw_position": 14 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "yanguas_stupaczuk",    "seed": 3,    "entry_type": "S",  "fip_points_pre_tournament": 13965, "draw_half": "top",    "draw_position": 16 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "lebron_augsburger",    "seed": 4,    "entry_type": "S",  "fip_points_pre_tournament": 12850, "draw_half": "bottom", "draw_position": 17 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "ruiz_gonzalez_rubio",  "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 19 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "arredondo_padilla",    "seed": null, "entry_type": "WC", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 20 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "ruiz_granados_esbri",  "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 21 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "libaak_chozas",        "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 22 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "collado_hernandez",    "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 23 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "gonzalez_dinenno",     "seed": 7,    "entry_type": "S",  "fip_points_pre_tournament": 9370,  "draw_half": "bottom", "draw_position": 24 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "garrido_bergamini",    "seed": 8,    "entry_type": "S",  "fip_points_pre_tournament": 7555,  "draw_half": "bottom", "draw_position": 25 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "sager_rubini",         "seed": null, "entry_type": "Q",  "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 26 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "sanchez_jimenez",      "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 27 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "gutierrez_alfonso",    "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 28 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "gala_garcia_rodrigo",  "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 29 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "garcia_barahona",      "seed": null, "entry_type": "DA", "fip_points_pre_tournament": null,  "draw_half": "bottom", "draw_position": 30 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "galan_chingotto",      "seed": 2,    "entry_type": "S",  "fip_points_pre_tournament": 36320, "draw_half": "bottom", "draw_position": 32 }
-  ],
-
-  "matches": [
     {
-      "match_id": "cancun26_r32_t01", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 1,
-      "team1_id": "tapia_coello", "team2_id": "bye", "winner_id": "tapia_coello",
-      "score": null, "walkover": true, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "tapia_coello",
+      "seed": 1,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 40320,
+      "draw_half": "top",
+      "draw_position": 1
     },
     {
-      "match_id": "cancun26_r32_t02", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 2,
-      "team1_id": "diestro_fernandez", "team2_id": "lijo_arce_simo", "winner_id": "lijo_arce_simo",
-      "score": [{ "set": 1, "t1": 4, "t2": 6 }, { "set": 2, "t1": 2, "t2": 6 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "diestro_fernandez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 3
     },
     {
-      "match_id": "cancun26_r32_t03", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 3,
-      "team1_id": "leal_cepero", "team2_id": "goenaga_goni", "winner_id": "goenaga_goni",
-      "score": [{ "set": 1, "t1": 6, "t2": 7, "tiebreak": 2 }, { "set": 2, "t1": 7, "t2": 5 }, { "set": 3, "t1": 4, "t2": 6 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "lijo_arce_simo",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 4
     },
     {
-      "match_id": "cancun26_r32_t04", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 4,
-      "team1_id": "campagnolo_bautista", "team2_id": "sanz_nieto_ruiz", "winner_id": "campagnolo_bautista",
-      "score": [{ "set": 1, "t1": 6, "t2": 2 }, { "set": 2, "t1": 6, "t2": 0 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "leal_cepero",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 5
     },
     {
-      "match_id": "cancun26_r32_t05", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 5,
-      "team1_id": "guerrero_navarro", "team2_id": "capra_ruiz", "winner_id": "guerrero_navarro",
-      "score": [{ "set": 1, "t1": 6, "t2": 3 }, { "set": 2, "t1": 6, "t2": 4 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "goenaga_goni",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 6
     },
     {
-      "match_id": "cancun26_r32_t06", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 6,
-      "team1_id": "amora_acevedo", "team2_id": "aguirre_arroyo", "winner_id": "aguirre_arroyo",
-      "score": [{ "set": 1, "t1": 2, "t2": 6 }, { "set": 2, "t1": 2, "t2": 6 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "campagnolo_bautista",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 7
     },
     {
-      "match_id": "cancun26_r32_t07", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 7,
-      "team1_id": "jofre_castano", "team2_id": "alonso_tello", "winner_id": "alonso_tello",
-      "score": [{ "set": 1, "t1": 3, "t2": 6 }, { "set": 2, "t1": 4, "t2": 6 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "sanz_nieto_ruiz",
+      "seed": 5,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 11357,
+      "draw_half": "top",
+      "draw_position": 8
     },
     {
-      "match_id": "cancun26_r32_t08", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "top", "match_number": 8,
-      "team1_id": "yanguas_stupaczuk", "team2_id": "bye", "winner_id": "yanguas_stupaczuk",
-      "score": null, "walkover": true, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "guerrero_navarro",
+      "seed": 6,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 11320,
+      "draw_half": "top",
+      "draw_position": 9
     },
     {
-      "match_id": "cancun26_r32_b01", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 1,
-      "team1_id": "lebron_augsburger", "team2_id": "bye", "winner_id": "lebron_augsburger",
-      "score": null, "walkover": true, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "capra_ruiz",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 10
     },
     {
-      "match_id": "cancun26_r32_b02", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 2,
-      "team1_id": "ruiz_gonzalez_rubio", "team2_id": "arredondo_padilla", "winner_id": "ruiz_gonzalez_rubio",
-      "score": [{ "set": 1, "t1": 6, "t2": 0 }, { "set": 2, "t1": 7, "t2": 6, "tiebreak": 5 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "amora_acevedo",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 11
     },
     {
-      "match_id": "cancun26_r32_b03", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 3,
-      "team1_id": "ruiz_granados_esbri", "team2_id": "libaak_chozas", "winner_id": "ruiz_granados_esbri",
-      "score": [{ "set": 1, "t1": 3, "t2": 6 }, { "set": 2, "t1": 6, "t2": 1 }, { "set": 3, "t1": 7, "t2": 6, "tiebreak": 3 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "aguirre_arroyo",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 12
     },
     {
-      "match_id": "cancun26_r32_b04", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 4,
-      "team1_id": "collado_hernandez", "team2_id": "gonzalez_dinenno", "winner_id": "collado_hernandez",
-      "score": [{ "set": 1, "t1": 7, "t2": 6, "tiebreak": 4 }, { "set": 2, "t1": 7, "t2": 6, "tiebreak": 5 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "jofre_castano",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 13
     },
     {
-      "match_id": "cancun26_r32_b05", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 5,
-      "team1_id": "garrido_bergamini", "team2_id": "sager_rubini", "winner_id": "garrido_bergamini",
-      "score": [{ "set": 1, "t1": 6, "t2": 4 }, { "set": 2, "t1": 6, "t2": 3 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "alonso_tello",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "top",
+      "draw_position": 14
     },
     {
-      "match_id": "cancun26_r32_b06", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 6,
-      "team1_id": "sanchez_jimenez", "team2_id": "gutierrez_alfonso", "winner_id": "gutierrez_alfonso",
-      "score": [{ "set": 1, "t1": 3, "t2": 6 }, { "set": 2, "t1": 6, "t2": 7, "tiebreak": 4 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "yanguas_stupaczuk",
+      "seed": 3,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 13965,
+      "draw_half": "top",
+      "draw_position": 16
     },
     {
-      "match_id": "cancun26_r32_b07", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 7,
-      "team1_id": "gala_garcia_rodrigo", "team2_id": "garcia_barahona", "winner_id": "garcia_barahona",
-      "score": [{ "set": 1, "t1": 5, "t2": 7 }, { "set": 2, "t1": 2, "t2": 6 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "lebron_augsburger",
+      "seed": 4,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 12850,
+      "draw_half": "bottom",
+      "draw_position": 17
     },
     {
-      "match_id": "cancun26_r32_b08", "tournament_id": "cancun_p2_2026",
-      "round": "R32", "draw_half": "bottom", "match_number": 8,
-      "team1_id": "galan_chingotto", "team2_id": "bye", "winner_id": "galan_chingotto",
-      "score": null, "walkover": true, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "ruiz_gonzalez_rubio",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 19
     },
     {
-      "match_id": "cancun26_r16_t01", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "top", "match_number": 1,
-      "team1_id": "tapia_coello", "team2_id": "lijo_arce_simo", "winner_id": "tapia_coello",
-      "score": [{ "set": 1, "t1": 3, "t2": 6 }, { "set": 2, "t1": 6, "t2": 2 }, { "set": 3, "t1": 7, "t2": 6, "tiebreak": 3 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "arredondo_padilla",
+      "seed": null,
+      "entry_type": "WC",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 20
     },
     {
-      "match_id": "cancun26_r16_t02", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "top", "match_number": 2,
-      "team1_id": "campagnolo_bautista", "team2_id": "goenaga_goni", "winner_id": "campagnolo_bautista",
-      "score": [{ "set": 1, "t1": 7, "t2": 6, "tiebreak": 5 }, { "set": 2, "t1": 7, "t2": 6, "tiebreak": 5 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "ruiz_granados_esbri",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 21
     },
     {
-      "match_id": "cancun26_r16_t03", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "top", "match_number": 3,
-      "team1_id": "guerrero_navarro", "team2_id": "aguirre_arroyo", "winner_id": "aguirre_arroyo",
-      "score": [{ "set": 1, "t1": 6, "t2": 3 }, { "set": 2, "t1": 3, "t2": 6 }, { "set": 3, "t1": 2, "t2": 6 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "libaak_chozas",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 22
     },
     {
-      "match_id": "cancun26_r16_t04", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "top", "match_number": 4,
-      "team1_id": "yanguas_stupaczuk", "team2_id": "alonso_tello", "winner_id": "yanguas_stupaczuk",
-      "score": [{ "set": 1, "t1": 6, "t2": 3 }, { "set": 2, "t1": 6, "t2": 3 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "collado_hernandez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 23
     },
     {
-      "match_id": "cancun26_r16_b01", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "bottom", "match_number": 1,
-      "team1_id": "lebron_augsburger", "team2_id": "ruiz_gonzalez_rubio", "winner_id": "lebron_augsburger",
-      "score": [{ "set": 1, "t1": 6, "t2": 4 }, { "set": 2, "t1": 6, "t2": 2 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "gonzalez_dinenno",
+      "seed": 7,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 9370,
+      "draw_half": "bottom",
+      "draw_position": 24
     },
     {
-      "match_id": "cancun26_r16_b02", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "bottom", "match_number": 2,
-      "team1_id": "collado_hernandez", "team2_id": "ruiz_granados_esbri", "winner_id": "collado_hernandez",
-      "score": [{ "set": 1, "t1": 6, "t2": 1 }, { "set": 2, "t1": 3, "t2": 6 }, { "set": 3, "t1": 6, "t2": 3 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "garrido_bergamini",
+      "seed": 8,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 7555,
+      "draw_half": "bottom",
+      "draw_position": 25
     },
     {
-      "match_id": "cancun26_r16_b03", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "bottom", "match_number": 3,
-      "team1_id": "garrido_bergamini", "team2_id": "gutierrez_alfonso", "winner_id": "gutierrez_alfonso",
-      "score": [{ "set": 1, "t1": 3, "t2": 6 }, { "set": 2, "t1": 5, "t2": 7 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "sager_rubini",
+      "seed": null,
+      "entry_type": "Q",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 26
     },
     {
-      "match_id": "cancun26_r16_b04", "tournament_id": "cancun_p2_2026",
-      "round": "R16", "draw_half": "bottom", "match_number": 4,
-      "team1_id": "galan_chingotto", "team2_id": "garcia_barahona", "winner_id": "galan_chingotto",
-      "score": [{ "set": 1, "t1": 6, "t2": 2 }, { "set": 2, "t1": 6, "t2": 4 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "sanchez_jimenez",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 27
     },
     {
-      "match_id": "cancun26_qf_t01", "tournament_id": "cancun_p2_2026",
-      "round": "QF", "draw_half": "top", "match_number": 1,
-      "team1_id": "tapia_coello", "team2_id": "campagnolo_bautista", "winner_id": "tapia_coello",
-      "score": [{ "set": 1, "t1": 4, "t2": 0 }],
-      "walkover": false, "retired_team_id": "campagnolo_bautista"
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "gutierrez_alfonso",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 28
     },
     {
-      "match_id": "cancun26_qf_t02", "tournament_id": "cancun_p2_2026",
-      "round": "QF", "draw_half": "top", "match_number": 2,
-      "team1_id": "aguirre_arroyo", "team2_id": "yanguas_stupaczuk", "winner_id": "aguirre_arroyo",
-      "score": [{ "set": 1, "t1": 6, "t2": 3 }, { "set": 2, "t1": 6, "t2": 3 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "gala_garcia_rodrigo",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 29
     },
     {
-      "match_id": "cancun26_qf_b01", "tournament_id": "cancun_p2_2026",
-      "round": "QF", "draw_half": "bottom", "match_number": 1,
-      "team1_id": "lebron_augsburger", "team2_id": "collado_hernandez", "winner_id": "lebron_augsburger",
-      "score": [{ "set": 1, "t1": 6, "t2": 3 }, { "set": 2, "t1": 6, "t2": 1 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "garcia_barahona",
+      "seed": null,
+      "entry_type": "DA",
+      "fip_points_pre_tournament": null,
+      "draw_half": "bottom",
+      "draw_position": 30
     },
     {
-      "match_id": "cancun26_qf_b02", "tournament_id": "cancun_p2_2026",
-      "round": "QF", "draw_half": "bottom", "match_number": 2,
-      "team1_id": "gutierrez_alfonso", "team2_id": "galan_chingotto", "winner_id": "gutierrez_alfonso",
-      "score": [{ "set": 1, "t1": 7, "t2": 5 }, { "set": 2, "t1": 6, "t2": 4 }],
-      "walkover": false, "retired_team_id": null
-    },
-    {
-      "match_id": "cancun26_sf_t01", "tournament_id": "cancun_p2_2026",
-      "round": "SF", "draw_half": "top", "match_number": 1,
-      "team1_id": "tapia_coello", "team2_id": "aguirre_arroyo", "winner_id": "tapia_coello",
-      "score": [{ "set": 1, "t1": 7, "t2": 6, "tiebreak": 1 }, { "set": 2, "t1": 6, "t2": 1 }],
-      "walkover": false, "retired_team_id": null
-    },
-    {
-      "match_id": "cancun26_sf_b01", "tournament_id": "cancun_p2_2026",
-      "round": "SF", "draw_half": "bottom", "match_number": 1,
-      "team1_id": "lebron_augsburger", "team2_id": "gutierrez_alfonso", "winner_id": "lebron_augsburger",
-      "score": [{ "set": 1, "t1": 6, "t2": 1 }, { "set": 2, "t1": 6, "t2": 2 }],
-      "walkover": false, "retired_team_id": null
-    },
-    {
-      "match_id": "cancun26_final", "tournament_id": "cancun_p2_2026",
-      "round": "Final", "draw_half": null, "match_number": 1,
-      "team1_id": "tapia_coello", "team2_id": "lebron_augsburger", "winner_id": "tapia_coello",
-      "score": [{ "set": 1, "t1": 6, "t2": 7, "tiebreak": 5 }, { "set": 2, "t1": 6, "t2": 3 }, { "set": 3, "t1": 7, "t2": 5 }],
-      "walkover": false, "retired_team_id": null
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "galan_chingotto",
+      "seed": 2,
+      "entry_type": "S",
+      "fip_points_pre_tournament": 36320,
+      "draw_half": "bottom",
+      "draw_position": 32
     }
   ],
-
+  "matches": [
+    {
+      "match_id": "cancun26_r32_t01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "bye",
+      "winner_id": "tapia_coello",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t02",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "diestro_fernandez",
+      "team2_id": "lijo_arce_simo",
+      "winner_id": "lijo_arce_simo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t03",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "leal_cepero",
+      "team2_id": "goenaga_goni",
+      "winner_id": "goenaga_goni",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 2
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 3,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t04",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "campagnolo_bautista",
+      "team2_id": "sanz_nieto_ruiz",
+      "winner_id": "campagnolo_bautista",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t05",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 5,
+      "team1_id": "guerrero_navarro",
+      "team2_id": "capra_ruiz",
+      "winner_id": "guerrero_navarro",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t06",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 6,
+      "team1_id": "amora_acevedo",
+      "team2_id": "aguirre_arroyo",
+      "winner_id": "aguirre_arroyo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 2,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t07",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 7,
+      "team1_id": "jofre_castano",
+      "team2_id": "alonso_tello",
+      "winner_id": "alonso_tello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 4,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_t08",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "top",
+      "match_number": 8,
+      "team1_id": "yanguas_stupaczuk",
+      "team2_id": "bye",
+      "winner_id": "yanguas_stupaczuk",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "bye",
+      "winner_id": "lebron_augsburger",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b02",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "ruiz_gonzalez_rubio",
+      "team2_id": "arredondo_padilla",
+      "winner_id": "ruiz_gonzalez_rubio",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 0
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b03",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "ruiz_granados_esbri",
+      "team2_id": "libaak_chozas",
+      "winner_id": "ruiz_granados_esbri",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 3,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b04",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "collado_hernandez",
+      "team2_id": "gonzalez_dinenno",
+      "winner_id": "collado_hernandez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 4
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b05",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 5,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "sager_rubini",
+      "winner_id": "garrido_bergamini",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b06",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 6,
+      "team1_id": "sanchez_jimenez",
+      "team2_id": "gutierrez_alfonso",
+      "winner_id": "gutierrez_alfonso",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b07",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 7,
+      "team1_id": "gala_garcia_rodrigo",
+      "team2_id": "garcia_barahona",
+      "winner_id": "garcia_barahona",
+      "score": [
+        {
+          "set": 1,
+          "t1": 5,
+          "t2": 7
+        },
+        {
+          "set": 2,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r32_b08",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R32",
+      "draw_half": "bottom",
+      "match_number": 8,
+      "team1_id": "galan_chingotto",
+      "team2_id": "bye",
+      "winner_id": "galan_chingotto",
+      "score": null,
+      "walkover": true,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_t01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "lijo_arce_simo",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 3,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_t02",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "campagnolo_bautista",
+      "team2_id": "goenaga_goni",
+      "winner_id": "campagnolo_bautista",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 5
+        },
+        {
+          "set": 2,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_t03",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 3,
+      "team1_id": "guerrero_navarro",
+      "team2_id": "aguirre_arroyo",
+      "winner_id": "aguirre_arroyo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 2,
+          "t2": 6
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_t04",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "top",
+      "match_number": 4,
+      "team1_id": "yanguas_stupaczuk",
+      "team2_id": "alonso_tello",
+      "winner_id": "yanguas_stupaczuk",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_b01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "ruiz_gonzalez_rubio",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 4
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_b02",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "collado_hernandez",
+      "team2_id": "ruiz_granados_esbri",
+      "winner_id": "collado_hernandez",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 3,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_b03",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 3,
+      "team1_id": "garrido_bergamini",
+      "team2_id": "gutierrez_alfonso",
+      "winner_id": "gutierrez_alfonso",
+      "score": [
+        {
+          "set": 1,
+          "t1": 3,
+          "t2": 6
+        },
+        {
+          "set": 2,
+          "t1": 5,
+          "t2": 7
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_r16_b04",
+      "tournament_id": "cancun_p2_2026",
+      "round": "R16",
+      "draw_half": "bottom",
+      "match_number": 4,
+      "team1_id": "galan_chingotto",
+      "team2_id": "garcia_barahona",
+      "winner_id": "galan_chingotto",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 2
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_qf_t01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "campagnolo_bautista",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 4,
+          "t2": 0
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": "campagnolo_bautista"
+    },
+    {
+      "match_id": "cancun26_qf_t02",
+      "tournament_id": "cancun_p2_2026",
+      "round": "QF",
+      "draw_half": "top",
+      "match_number": 2,
+      "team1_id": "aguirre_arroyo",
+      "team2_id": "yanguas_stupaczuk",
+      "winner_id": "aguirre_arroyo",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_qf_b01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "collado_hernandez",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_qf_b02",
+      "tournament_id": "cancun_p2_2026",
+      "round": "QF",
+      "draw_half": "bottom",
+      "match_number": 2,
+      "team1_id": "gutierrez_alfonso",
+      "team2_id": "galan_chingotto",
+      "winner_id": "gutierrez_alfonso",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 5
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 4
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_sf_t01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "SF",
+      "draw_half": "top",
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "aguirre_arroyo",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 7,
+          "t2": 6,
+          "tiebreak": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 1
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_sf_b01",
+      "tournament_id": "cancun_p2_2026",
+      "round": "SF",
+      "draw_half": "bottom",
+      "match_number": 1,
+      "team1_id": "lebron_augsburger",
+      "team2_id": "gutierrez_alfonso",
+      "winner_id": "lebron_augsburger",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 1
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 2
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    },
+    {
+      "match_id": "cancun26_final",
+      "tournament_id": "cancun_p2_2026",
+      "round": "Final",
+      "draw_half": null,
+      "match_number": 1,
+      "team1_id": "tapia_coello",
+      "team2_id": "lebron_augsburger",
+      "winner_id": "tapia_coello",
+      "score": [
+        {
+          "set": 1,
+          "t1": 6,
+          "t2": 7,
+          "tiebreak": 5
+        },
+        {
+          "set": 2,
+          "t1": 6,
+          "t2": 3
+        },
+        {
+          "set": 3,
+          "t1": 7,
+          "t2": 5
+        }
+      ],
+      "walkover": false,
+      "retired_team_id": null
+    }
+  ],
   "tournament_results": [
-    { "tournament_id": "cancun_p2_2026", "team_id": "tapia_coello",        "seed": 1,    "round_reached": "W",     "points_earned_per_player": 700, "points_earned_team": 1400 },
-    { "tournament_id": "cancun_p2_2026", "team_id": "lebron_augsburger",   "seed": 4,    "round_reached": "Final", "points_earned_per_player": 400, "points_earned_team": 800  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "aguirre_arroyo",      "seed": null, "round_reached": "SF",    "points_earned_per_player": 240, "points_earned_team": 480  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "gutierrez_alfonso",   "seed": null, "round_reached": "SF",    "points_earned_per_player": 240, "points_earned_team": 480  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "campagnolo_bautista", "seed": null, "round_reached": "QF",    "points_earned_per_player": 120, "points_earned_team": 240  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "yanguas_stupaczuk",   "seed": 3,    "round_reached": "QF",    "points_earned_per_player": 120, "points_earned_team": 240  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "collado_hernandez",   "seed": null, "round_reached": "QF",    "points_earned_per_player": 120, "points_earned_team": 240  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "galan_chingotto",     "seed": 2,    "round_reached": "QF",    "points_earned_per_player": 120, "points_earned_team": 240  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "lijo_arce_simo",      "seed": null, "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "goenaga_goni",        "seed": null, "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "guerrero_navarro",    "seed": 6,    "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "alonso_tello",        "seed": null, "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "ruiz_gonzalez_rubio", "seed": null, "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "ruiz_granados_esbri", "seed": null, "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "garrido_bergamini",   "seed": 8,    "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "garcia_barahona",     "seed": null, "round_reached": "R16",   "points_earned_per_player": 60,  "points_earned_team": 120  },
-    { "tournament_id": "cancun_p2_2026", "team_id": "diestro_fernandez",   "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "leal_cepero",         "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "sanz_nieto_ruiz",     "seed": 5,    "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "capra_ruiz",          "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "amora_acevedo",       "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "jofre_castano",       "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "arredondo_padilla",   "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "libaak_chozas",       "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "gonzalez_dinenno",    "seed": 7,    "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "sager_rubini",        "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "sanchez_jimenez",     "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   },
-    { "tournament_id": "cancun_p2_2026", "team_id": "gala_garcia_rodrigo", "seed": null, "round_reached": "R32",   "points_earned_per_player": 30,  "points_earned_team": 60   }
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "tapia_coello",
+      "seed": 1,
+      "round_reached": "W",
+      "points_earned_per_player": 600,
+      "points_earned_team": 1200
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "lebron_augsburger",
+      "seed": 4,
+      "round_reached": "Final",
+      "points_earned_per_player": 360,
+      "points_earned_team": 720
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "aguirre_arroyo",
+      "seed": null,
+      "round_reached": "SF",
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "gutierrez_alfonso",
+      "seed": null,
+      "round_reached": "SF",
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "campagnolo_bautista",
+      "seed": null,
+      "round_reached": "QF",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "yanguas_stupaczuk",
+      "seed": 3,
+      "round_reached": "QF",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "collado_hernandez",
+      "seed": null,
+      "round_reached": "QF",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "galan_chingotto",
+      "seed": 2,
+      "round_reached": "QF",
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "lijo_arce_simo",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "goenaga_goni",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "guerrero_navarro",
+      "seed": 6,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "alonso_tello",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "ruiz_gonzalez_rubio",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "ruiz_granados_esbri",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "garrido_bergamini",
+      "seed": 8,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "garcia_barahona",
+      "seed": null,
+      "round_reached": "R16",
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "diestro_fernandez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "leal_cepero",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "sanz_nieto_ruiz",
+      "seed": 5,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "capra_ruiz",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "amora_acevedo",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "jofre_castano",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "arredondo_padilla",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "libaak_chozas",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "gonzalez_dinenno",
+      "seed": 7,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "sager_rubini",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "sanchez_jimenez",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    },
+    {
+      "tournament_id": "cancun_p2_2026",
+      "team_id": "gala_garcia_rodrigo",
+      "seed": null,
+      "round_reached": "R32",
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
+    }
   ]
 }
