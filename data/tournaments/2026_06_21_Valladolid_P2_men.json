@@ -26,28 +26,28 @@
       ],
       "points_structure": {
         "R32": {
-          "per_player": 30,
-          "team_total": 60
+          "per_player": 22,
+          "team_total": 44
         },
         "R16": {
-          "per_player": 60,
-          "team_total": 120
+          "per_player": 45,
+          "team_total": 90
         },
         "QF": {
-          "per_player": 120,
-          "team_total": 240
+          "per_player": 90,
+          "team_total": 180
         },
         "SF": {
-          "per_player": 240,
-          "team_total": 480
+          "per_player": 180,
+          "team_total": 360
         },
         "Final": {
-          "per_player": 400,
-          "team_total": 800
+          "per_player": 360,
+          "team_total": 720
         },
         "W": {
-          "per_player": 700,
-          "team_total": 1400
+          "per_player": 600,
+          "team_total": 1200
         }
       },
       "prize_structure_eur": {
@@ -1470,224 +1470,224 @@
       "team_id": "tapia_coello",
       "seed": 1,
       "round_reached": "W",
-      "points_earned_per_player": 700,
-      "points_earned_team": 1400
+      "points_earned_per_player": 600,
+      "points_earned_team": 1200
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "galan_chingotto",
       "seed": 2,
       "round_reached": "Final",
-      "points_earned_per_player": 400,
-      "points_earned_team": 800
+      "points_earned_per_player": 360,
+      "points_earned_team": 720
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "lebron_augsburger",
       "seed": 3,
       "round_reached": "SF",
-      "points_earned_per_player": 240,
-      "points_earned_team": 480
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "guerrero_leal",
       "seed": 7,
       "round_reached": "SF",
-      "points_earned_per_player": 240,
-      "points_earned_team": 480
+      "points_earned_per_player": 180,
+      "points_earned_team": 360
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "jofre_bautista",
       "seed": null,
       "round_reached": "QF",
-      "points_earned_per_player": 120,
-      "points_earned_team": 240
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "gonzalez_campagnolo",
       "seed": 8,
       "round_reached": "QF",
-      "points_earned_per_player": 120,
-      "points_earned_team": 240
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "stupaczuk_yanguas",
       "seed": 4,
       "round_reached": "QF",
-      "points_earned_per_player": 120,
-      "points_earned_team": 240
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "dinenno_navarro",
       "seed": 6,
       "round_reached": "QF",
-      "points_earned_per_player": 120,
-      "points_earned_team": 240
+      "points_earned_per_player": 90,
+      "points_earned_team": 180
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "chozas_libaak",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "garcia_rodrigo_lijo",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "ruiz_a_esbri",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "hernandez_collado",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "gil_castano",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "rodriguez_de_pascual",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "coello_manso_axelsson",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "gala_jensen",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "sanchez_blasco_gutierrez",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "rivas_sanchez_arriaga",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "nieto_ruiz_sanz",
       "seed": 5,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "ruiz_v_ortega",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "perry_zamora",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "sintes_santigosa",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "arroyo_aguirre",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "alonso_goni",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "rubio_ruiz_gonzalez",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "jimenez_garcia_j",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "diestro_piotto",
       "seed": null,
       "round_reached": "R32",
-      "points_earned_per_player": 30,
-      "points_earned_team": 60
+      "points_earned_per_player": 22,
+      "points_earned_team": 44
     },
     {
       "tournament_id": "valladolid_p2_2026",
       "team_id": "hernandez_quesada_martinez",
       "seed": null,
       "round_reached": "R16",
-      "points_earned_per_player": 60,
-      "points_earned_team": 120
+      "points_earned_per_player": 45,
+      "points_earned_team": 90
     }
   ]
 }
