@@ -2608,9 +2608,9 @@
       "tournament_id": "riyadh_p1_2026",
       "team_id": "roman_lebron",
       "seed": 4,
-      "round_reached": "Final",
-      "points_earned_per_player": 800,
-      "points_earned_team": 1600
+      "round_reached": "SF",
+      "points_earned_per_player": 360,
+      "points_earned_team": 720
     },
     {
       "tournament_id": "riyadh_p1_2026",
